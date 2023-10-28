@@ -1,620 +1,236 @@
-<?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>黑魔法师职业攻略-深造篇</title>
-    <url>/posts/2023/11730/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试0.0" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="755daf23d9499a14aa9934c9a992038dbbce157c1281e230a892023f9e49e25a">1b693c4938223286468132b2f7068bf6eeb3a4c33651624a93cee180f807df59481e5202e1941912d3322bfb9b554829</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">在这里输入密码？</span>
-      </label>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="黑魔常见小问题Q&amp;A此文档暂停更新，作者不为文档中的一切言论负责。 高贵的黑魔准备回来修订了 6月2日 存在部分待修正part 未修改 2023年9月4日 6.4版本将迎来大修正但是我还在鸽 补一张图吧 你们可能需要的 黑魔技能伤害判定延迟  意思是：你3.5秒的时候读完一个火3，伤害会在4.792的时候才判定出来。 本文档用语较为口语化，带有较强攻击性，如果语言引起您的不适，请点击退出。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="黑魔常见问题FAQ">
+<meta property="og:url" content="http://example.com/posts/2023/10001/index.html">
+<meta property="og:site_name" content="瓶装黑魔纹">
+<meta property="og:description" content="黑魔常见小问题Q&amp;A此文档暂停更新，作者不为文档中的一切言论负责。 高贵的黑魔准备回来修订了 6月2日 存在部分待修正part 未修改 2023年9月4日 6.4版本将迎来大修正但是我还在鸽 补一张图吧 你们可能需要的 黑魔技能伤害判定延迟  意思是：你3.5秒的时候读完一个火3，伤害会在4.792的时候才判定出来。 本文档用语较为口语化，带有较强攻击性，如果语言引起您的不适，请点击退出。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-10-28T04:50:36.421Z">
+<meta property="article:modified_time" content="2023-10-28T04:57:35.417Z">
+<meta property="article:author" content="Shiroya">
+<meta property="article:tag" content="黑魔法师">
+<meta property="article:tag" content="教学">
+<meta property="article:tag" content="PVE">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/posts/2023/10001/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>黑魔常见问题FAQ | 瓶装黑魔纹</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">瓶装黑魔纹</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">重生之我是黑魔法师</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>黑魔常见问题FAQ</title>
-    <url>/posts/2023/10000/</url>
-    <content><![CDATA[<p><strong>黑魔常见小问题Q&amp;A</strong></p>
-<p>此文档暂停更新，作者不为文档中的一切言论负责。</p>
-<p>高贵的黑魔准备回来修订了</p>
-<p>6月2日 存在部分待修正part 未修改</p>
-<p>2023年9月4日 6.4版本将迎来大修正但是我还在鸽</p>
-<p>补一张图吧 你们可能需要的 黑魔技能伤害判定延迟</p>
-<p><img src="/.com//Aspose.Words.0fe056d1-801c-41b5-a95b-c3bab33832eb.001.PNG" alt="黑魔技能伤害判定延迟"></p>
-<p>意思是：你3.5秒的时候读完一个火3，伤害会在4.792的时候才判定出来。</p>
-<p><em><strong>关于绝O</strong></em>：黑魔没有突出优势，建议标准为5-8S黑魔橙紫再考虑用黑魔打绝O，否则折磨自己折磨队友。有条件可以抄轴，真得抄。</p>
-<p>推荐使用：絮絮轴<a href="https://www.bilibili.com/video/av266558020">https://www.bilibili.com/video/av266558020</a><br><img src="/.com//Aspose.Words.0fe056d1-801c-41b5-a95b-c3bab33832eb.002.PNG" alt="高亮块：关于绝O"></p>
-<p><em><strong>本文档用语较为口语化，带有较强攻击性，如果语言引起您的不适，请点击退出。</strong></em></p>
-<p><em><strong>如有问题，可以划选然后添加批注留下问题。</strong></em></p>
-<p><strong>【问题收集表（可能需要登录）】<a href="https://docs.qq.com/doc/DSE5YbGFtUlZHY3Zk">黑魔相关Q&amp;A问题收集表</a></strong></p>
-<p>点击进入留下提问，有空就会看，当然我更提倡直接找我提问。</p>
-<p><strong>最近更新记录：</strong></p>
-<p><strong>挖个坑，配装合集</strong></p>
-<p>2022年10月21日	为问题添加了编号方便查阅；增添了一部分问题，主要是针对星灵循环和排轴的；为深造篇植入大量广告和解释（小窗快给我打钱）；修改了一部分问题的格式；修改了一部分问题以及回答；增加了排轴网站。</p>
-<p>2022年9月29日	叠了甲；对一部分问题进行了补充；追加了5S-8S、绝本相关问题的栏目（待编辑状态）；上传补充了【循环收益表】、【牛牛轴】等文件；修订了一部分格式。</p>
-<p>挖了个新坑：部分常用链接、视频整理（未完工）<a href="https://docs.qq.com/doc/DSEprVEV0Y1VBdFpF">引用链接</a></p>
-<h1 id="常用链接"><a href="#常用链接" class="headerlink" title="常用链接"></a><strong>常用链接</strong></h1><p>【警察网】<a href="https://xivanalysis.com/">https://xivanalysis.com/</a></p>
-<p>【logs网站使用指南】<a href="https://bbs.nga.cn/read.php?tid=16465994">https://bbs.nga.cn/read.php?tid=16465994</a></p>
-<p>【6.0黑魔攻略（版头，祈祷版）】<a href="https://bbs.nga.cn/read.php?tid=30055418">https://bbs.nga.cn/read.php?tid=30055418</a></p>
-<p>【6.0黑魔入门攻略】<a href="https://bbs.nga.cn/read.php?tid=30617374">https://bbs.nga.cn/read.php?tid=30617374</a></p>
-<p>【6.0黑魔进阶攻略（不是进阶篇）】<a href="https://bbs.nga.cn/read.php?tid=30460203">https://bbs.nga.cn/read.php?tid=30460203</a></p>
-<p>【6.0黑魔咏速阈值表】<a href="https://bbs.nga.cn/read.php?tid=29774994">https://bbs.nga.cn/read.php?tid=29774994</a></p>
-<p>【常用排轴网站】<a href="https://www.ffxivrotations.com/">https://www.ffxivrotations.com/</a></p>
-<p>【常用配装合集】<a href="https://docs.qq.com/doc/DSFppeWpFaWV0V0VL">6.0晓月之终途黑魔法师配装合集</a></p>
-<p><a href="https://b23.tv/kYomRaB">【6.0黑魔法师职业攻略（基础篇）】</a></p>
-<p><a href="https://b23.tv/QvGcWVa">【6.0黑魔法师职业攻略（进阶篇）】</a></p>
-<p><a href="https://docs.qq.com/doc/DS1JWZmtkeExGeEFF">黑魔法师职业攻略：进阶篇（文字版）</a>这是从号被手里偷的进阶篇文字版</p>
-<p><a href="https://docs.qq.com/doc/DRnVhdEVwR214UE1X">黑魔法师职业攻略：深造篇（文档版）</a><strong>请不要急功近利看深造篇，logs橙紫以上再看</strong></p>
-<p>详解深造篇压冰胎教 <a href="https://docs.qq.com/doc/DSG5kdXFQS1pyVG5x">详解压冰——从星灵循环到广义压冰</a></p>
-<p><a href="https://b23.tv/AJC4PSO">【进阶跳蓝监控：未来观测】</a></p>
-<p><a href="https://www.bilibili.com/read/cv16403803">【6.0黑魔法师循环数据与评价，以更全面的视角审视各种循环与黑魔输出体系之间的联系】</a></p>
-<p>【循环收益表】6.08黑魔循环收益表.xlsx</p>
-<p>【配装阈值表】<a href="https://nga.178.com/read.php?tid=29718475">https://nga.178.com/read.php?tid=29718475</a></p>
-<h4 id="配套视频讲解"><a href="#配套视频讲解" class="headerlink" title="配套视频讲解"></a><strong>配套视频讲解</strong></h4><p>最近做的系列，随性讲解，在这边也贴一下，（应该）会持续更新。</p>
-<p>【01】<a href="https://www.bilibili.com/video/av602881259">新手必看向：为什么我伤害打不高？GCD利用率上不去？能力技插入问题扒logs轴讲解</a></p>
-<p>【02】<a href="https://www.bilibili.com/video/BV1qe411u7fA">为什么不建议新手打星灵循环只建议标准？什么时候可以开始打进阶星灵循环？四种星灵循环及跳蓝问题简单讲解！</a></p>
-<p>【03】<a href="https://www.bilibili.com/video/av900660875">警察网进阶使用教学！怎么自己用警察网扒轴抓问题？如何通过扒轴自查dot及能力技问题并改善？</a></p>
-<p>【04】<a href="https://www.bilibili.com/video/av388636211/">（有省流笔记）突发问题如何止损？止损思路教学+非标准循环讲解</a></p>
-<p><strong>学黑魔推荐B站关注</strong>：无数梦境、窗Yoru、小西果果、月上明枝、艾歌·斯卡雷特<del>（广告位招租，给我提供一只宝石兽就把你的名字写上去）</del></p>
-<h1 id="写在开头"><a href="#写在开头" class="headerlink" title="写在开头"></a><strong>写在开头</strong></h1><p><strong>标准循环打明白了再去惦记你的进阶循环。</strong></p>
-<p><strong>多打木桩勤练习，木桩都没打明白进本你不可能打明白。</strong></p>
-<p><strong>黑魔就是吃熟练度的职业，多打什么都会了，问一堆不如打一把。</strong></p>
-<p><strong>这么多图文视频攻略饭喂你嘴里了，学不会能不能检讨一下是不是自己的问题啊？</strong></p>
-<p><strong>对循环伤害有疑问，可以查一下6.08黑魔循环收益表，常用链接中有附件</strong>意思是如果你不知道这个循环是亏的赚的，就查表，查不到自己算，不会算来问我。</p>
-<p><strong>在提问之前，先把你的logs放进警察网里过一遍，如果还有明显可以改进的地方，就去改，改到没有问题了，再去问别人为什么自己打不高。</strong></p>
-<p>想提升你的黑魔手法，不要去问那些不玩黑魔的人，就算是你的亲友也不行。加点黑魔群，问问玩黑魔的。黑魔的输出逻辑跟其他职业相对差别较大，需要考虑瞬发的分配，不玩黑魔的人一般不能理解。<del>你懂个P的黑魔</del></p>
-<h1 id="关于常用链接"><a href="#关于常用链接" class="headerlink" title="关于常用链接"></a><strong>关于常用链接</strong></h1><h4 id="警察网（xivanalysis）"><a href="#警察网（xivanalysis）" class="headerlink" title="警察网（xivanalysis）"></a><strong>警察网（xivanalysis）</strong></h4><p>警察网是一个从基础入门，到进阶提升都非常好用的东西。</p>
-<p><strong>对只能打灰&#x2F;绿&#x2F;蓝，或是刚入门的新手：</strong></p>
-<p>警察网上的建议是你最好的朋友。仅仅只是订正这些建议中提及的错误，就足以使你的黑魔手法更上一层楼。（如果不知道怎么订正，请参考下面的问题）</p>
-<p>包括但不限于已有的建议，GCD利用率，和dot覆盖率、能力技使用次数、循环错误、发呆时间等等。</p>
-<p><strong>对已经迈入进阶期的玩家：</strong></p>
-<p>警察网的扒轴功能相比fflogs自带的时间轴要清晰明了许多，更方便检查你的轴，和一些肉眼比较难观测的小错误。或许建议中没有提及，看起来光鲜亮丽，但是通过检查轴可以检测出很多问题。例如一些脑溢血循环，一些脑溢血的技能排列和插入。</p>
-<p>警察网使用进阶教学可以查看：<a href="https://www.bilibili.com/video/av900660875">【黑魔常见问题03期】警察网进阶使用教学！怎么自己用警察网扒轴抓问题？如何通过扒轴自查dot及能力技问题并改善？</a></p>
-<h4 id="FFLOGS"><a href="#FFLOGS" class="headerlink" title="FFLOGS"></a><strong>FFLOGS</strong></h4><p>Logs不是一切，但他可以最直观地体现你的手法在玩家群体中的水平。</p>
-<h1 id="懒得分类的杂谈提醒"><a href="#懒得分类的杂谈提醒" class="headerlink" title="懒得分类的杂谈提醒"></a><strong>懒得分类的杂谈提醒</strong></h1><p>懒得分类到问题里做格式了，因为我也不打算写了！是最近被问到的东西</p>
-<h4 id="1-有火苗的时候打双星灵不用开醒梦。"><a href="#1-有火苗的时候打双星灵不用开醒梦。" class="headerlink" title="1.有火苗的时候打双星灵不用开醒梦。"></a><strong>1.有火苗的时候打双星灵不用开醒梦。</strong></h4><p>详见下面关于双星灵的部分，<strong>醒梦的意义是能让你瞬双的时候多打一个瞬发</strong>。</p>
-<p>而不是形式主义地走个过场。</p>
-<p>一个不能让你多打双星灵的醒梦是没有意义的！</p>
-<h4 id="2-在打双星灵的途中卡GCD硬插了太多技能，只会让双星灵本就不多的收益雪上加霜。"><a href="#2-在打双星灵的途中卡GCD硬插了太多技能，只会让双星灵本就不多的收益雪上加霜。" class="headerlink" title="2.在打双星灵的途中卡GCD硬插了太多技能，只会让双星灵本就不多的收益雪上加霜。"></a><strong>2.在打双星灵的途中卡GCD硬插了太多技能，只会让双星灵本就不多的收益雪上加霜。</strong></h4><p>如果你打双星灵要卡GCD我的建议是不如不打（<strong>特化特殊情况或者你自己对自己干了啥心里有B数除外</strong>）。此外，请记住双星灵本身收益其实并不如你想的那么高，中途卡一次GCD收益可以说全无。</p>
-<h4 id="3-能力技不要和爆发药一起插，要我做个PPT跟你讲吗？"><a href="#3-能力技不要和爆发药一起插，要我做个PPT跟你讲吗？" class="headerlink" title="3.能力技不要和爆发药一起插，要我做个PPT跟你讲吗？"></a><strong>3.能力技不要和爆发药一起插，要我做个PPT跟你讲吗？</strong></h4><p><strong>求你不要这么打了</strong></p>
-<p><img src="/.com//Aspose.Words.0fe056d1-801c-41b5-a95b-c3bab33832eb.003.PNG" alt="descript"></p>
-<h4 id="4-567-门神可以这么打起手，火起长单延后魔泉"><a href="#4-567-门神可以这么打起手，火起长单延后魔泉" class="headerlink" title="4.567+门神可以这么打起手，火起长单延后魔泉"></a><strong>4.567+门神可以这么打起手，火起长单延后魔泉</strong></h4><p><img src="/.com//Aspose.Words.0fe056d1-801c-41b5-a95b-c3bab33832eb.004.PNG" alt="descript">无奖竞猜：这图有一个技能放错地方了但是无伤大雅</p>
-<p>是的说的就是第二个三连（应该前移插在魔泉后面，覆盖4d3）<br>####</p>
-<h4 id="5-关于长单-长双-长读条陷阱"><a href="#5-关于长单-长双-长读条陷阱" class="headerlink" title="5.关于长单&#x2F;长双&#x2F;长读条陷阱"></a><strong>5.关于长单&#x2F;长双&#x2F;长读条陷阱</strong></h4><p><del>有问题找伤心水母@神拳痕，我的黑魔是他教的</del></p>
-<h4 id="长单"><a href="#长单" class="headerlink" title="长单"></a><strong>长单</strong></h4><p>在当前环境下，长单的主要作用是调轴，方便瞬发对齐机制。</p>
-<p>长单这个循环不管是威力的收益还是资源的收益，其实都是略微不如标准的。只有一种情况长单是纯赚的，那就是黑魔纹里长单5（5火4）和新短5。</p>
-<p>在合适的条件下，长单可以用雷云来启动，以获得一个更好的雷轴。</p>
-<h4 id="长双"><a href="#长双" class="headerlink" title="长双"></a><strong>长双</strong></h4><p>长双是一种在没有瞬发火3的条件时的替代循环。也就是用火状态下的长读条火3替换瞬发火3来打双星灵的循环。没有即刻或三连的时候用来提升双星灵的浓度。</p>
-<p>通常来说，长双主要的作用是倾泻一些多余的瞬发。长双的应用场景非常广泛，是仅次于各种瞬发火3的循环（瞬单、瞬双、火双等等）的循环，但要注意长读条的全局陷阱。</p>
-<p>长双最基本也是最常见的应用例子可以是：在利用了三连、即刻进行跑位后，其余瞬发资源（异言、雷云）丰富，但是已经无法瞬发火3，这个时候就可以使用长双来消耗多余的瞬发资源。总的来说，它的应用场景与瞬双基本相同。</p>
-<p>然而需要注意的是，由于火3是长读条，会给跳蓝和整体的轴的时间带来一定的偏移和改变。</p>
-<p>比较高级一些的应用是，在将其他的三连、即刻都用来打双星灵的前提下，利用长双进一步提高轴内的双星灵浓度，这时的长双可以说是凭空多出来的双星灵。</p>
-<h4 id="长读条全局陷阱"><a href="#长读条全局陷阱" class="headerlink" title="长读条全局陷阱"></a><strong>长读条全局陷阱</strong></h4><p>不过，长读条F3有可能存在一个全局陷阱。</p>
-<p>通常GCD是2.5s，而长读条是3.5s，也就是说，每多打一个长读条F3，你就多用了1s，多2个就多用了2s。如果我们拿一个有长读条F3的轴和一个没有长读条F3的轴作比较，有长读条F3的轴可能会因为多消耗了1s，而比没有长读条F3的轴少打一个GCD。</p>
-<p>需要注意的是，这里说的多出来的一个GCD并不一定是完整的2.5s，可能在2.5s的GCD的第1s，技能就已经判定出来了，因此，并不一定要以“多用的时间累积到2.5s”作为评估的标准。</p>
-<p><strong>因此，即便有的时候，有长读条F3的轴的循环整体结构看起来更优，但因为比没有长读条F3的轴少打了技能，最后反而不如后者的总威力更高。</strong></p>
-<p>轴的总威力与长读条的数量相关性呈阶梯型下降。</p>
-<p>具体到副本上，用比较通俗的话说，长读条技能到一定数量就会产生一个收益断点。</p>
-<p>所以对轴，有一种整体优化的思路就是减少长读条数量到这个收益断点之前。</p>
-<p>但是适当的长读条也能够对全局循环结构进行优化，比如通过长双打出更多的双星灵。</p>
-<p>优化到一定程度之后，即使对比无长读条的轴少了技能，因为在双星灵的数量上更有优势，总威力也是更高的。比较经典的例子是5s的p1，所以必须结合具体的副本和情况再讨论。</p>
-<p><img src="/.com//Aspose.Words.0fe056d1-801c-41b5-a95b-c3bab33832eb.005.PNG"></p>
-<h1 id="前置知识（待编写）："><a href="#前置知识（待编写）：" class="headerlink" title="前置知识（待编写）："></a><strong>前置知识（待编写）：</strong></h1><h4 id="P1：黑魔技能威力的计算"><a href="#P1：黑魔技能威力的计算" class="headerlink" title="P1：黑魔技能威力的计算"></a><strong>P1：黑魔技能威力的计算</strong></h4><p>黑魔的技能总共吃以下几种加成（均以满级的最终加成进行计算，升级途中技能没全的不好算）</p>
-<p>天语*1.21；法系补正*1.3；（黑魔所有技能都吃）</p>
-<p>一档火*1.4；二档火*1.6；三档火*1.8；冰状态下打火技能威力系数分别为：一档冰*0.9 二档冰*0.8 三档冰*0.7。（只有冰技能、火技能吃。悖论不吃。）</p>
-<p>我们在计算和比较黑魔技能循环之间的威力的时候，一般会去掉天语和法系补正，我将其称为内部威力。</p>
-<p>比如一个三档火火4的内部威力为310*1.8&#x3D;558，我们将用558这个数值与黑魔的其他技能威力进行比较（例如750的异言）</p>
-<p>而对应地，外部威力被我定义为，加上天语和法系补正的威力，也就是用来跟其他职业的技能比较威力时使用的数值。例如一个三档火火4的外部威力为310*1.8*1.21*1.3&#x3D;877.734。我们将用877这个数值去与其他职业的技能（例如雪月花、苦难之心）进行比较。</p>
-<h4 id="P2：滑步的原理"><a href="#P2：滑步的原理" class="headerlink" title="P2：滑步的原理"></a><strong>P2：滑步的原理</strong></h4><p>服务器延迟0.5s，例如你2.8秒的读条，其实到2.3秒的时候就已经可以开始走动了，因为服务器判定你已经读完了。</p>
-<p>当然一般不是准确的0.5s，根据你的延迟可能会有所波动。</p>
-<p>滑步不是新手必修课，在这个新手期瞬发充裕，且大部分机制都是大幅度位移的时代，请新手不要胡乱滑步，优先使用瞬发进行走位。</p>
-<p>滑步有时能帮你省下一些处理机制的瞬发（例如p6s的很多机制可以滑步处理），然而更多的时候它屁用没有，还很容易滑丢gcd，请见下文。</p>
-<p>学习滑步必须清楚它所存在的的利弊。</p>
-<h4 id="P3：能力技和gcd技"><a href="#P3：能力技和gcd技" class="headerlink" title="P3：能力技和gcd技"></a><strong>P3：能力技和gcd技</strong></h4><p>参见b站：黑魔法师职业攻略基础篇。</p>
-<h4 id="P4：满级之前"><a href="#P4：满级之前" class="headerlink" title="P4：满级之前"></a><strong>P4：满级之前</strong></h4><p>满级才是开始。</p>
-<h1 id="常识性问题"><a href="#常识性问题" class="headerlink" title="常识性问题"></a><strong>常识性问题</strong></h1><h4 id="Q1：雷dot是不是要保持不断？断dot和覆盖dot选哪个？"><a href="#Q1：雷dot是不是要保持不断？断dot和覆盖dot选哪个？" class="headerlink" title="Q1：雷dot是不是要保持不断？断dot和覆盖dot选哪个？"></a><strong>Q1：雷dot是不是要保持不断？断dot和覆盖dot选哪个？</strong></h4><p><strong>黑魔的dot伤害不高，雷dot的主要意义是为你提供一个瞬发：雷云。</strong></p>
-<p><strong>雷云本身等同于一个400威力的瞬发（不计算天语加成的净对比），</strong>满跳加起来等于一个异言。</p>
-<p><strong>对新手而言：</strong>最好保持不断，先做到能让dot覆盖率90%以上，再考虑断不断的问题。</p>
-<p>全程标准循环对dot覆盖率的最低入门标准应该是90%，同时后期也需要尽可能提高dot覆盖率，这里的百分比只是一个建议性的参考数值。<del>打不到95正常，打不到90你肯定有问题</del></p>
-<p><strong>对进阶者而言：首先是避免断&#x2F;覆盖dot，不可避免的时候，用断dot代替覆盖dot。</strong></p>
-<p>具体请参照【<a href="https://www.bilibili.com/video/av468543682">黑魔法师职业攻略-进阶篇</a>】里16:30左右，关于雷dot的截断和覆盖。</p>
-<p>结论：断N秒dot的亏损和覆盖N秒dot几乎持平，但是覆盖得多了，要补dot的次数就多，所以整体上，宁可断dot，不要覆盖dot。覆盖得多了会导致激情错位，激情对不上雷云从而导致透支激情。</p>
-<p><em>窗Yoru</em>：断dot是实打实的亏损，截断（覆盖）dot是阶梯式的亏损。</p>
-<h4 id="Q2：什么时候补dot更合适？"><a href="#Q2：什么时候补dot更合适？" class="headerlink" title="Q2：什么时候补dot更合适？"></a><strong>Q2：什么时候补dot更合适？</strong></h4><p>最简回答：dot剩余时间个位数的时候。</p>
-<p><strong>对新手而言：</strong>实际上，在你觉得需要使用雷云的时候补就可以，但注意最好每次不要覆盖太多（覆盖8s以上），并且建议尽量让dot在boss身上跳满。</p>
-<p><strong>对进阶者而言：</strong>理论上，星灵循环中可以接受10s左右覆盖dot，其他时候正常补就可以。</p>
-<h4 id="Q3：起手之后，三连一般用在哪里？怎么安排？"><a href="#Q3：起手之后，三连一般用在哪里？怎么安排？" class="headerlink" title="Q3：起手之后，三连一般用在哪里？怎么安排？"></a><strong>Q3：起手之后，三连一般用在哪里？怎么安排？</strong></h4><p><strong>对新手而言：</strong>看副本决定安排在什么地方跑机制，除了起手的两个三连之外，后面的三连基本都是用来对齐机制。</p>
-<p>如果发现短时间没有机制可跑，就在第二层快转好的时候打掉。如果后续确实没有机制了，且如果攒到下一次机制出现，三连会溢出，那么好了就打掉一层就行。（举例：P3S的鸟）</p>
-<p>开荒我推荐新手留三连，现在有两层充能，至少留一层，方便任何时候跑机制，留两层也可以，但不要空转太久。</p>
-<p><strong>对进阶者而言：</strong>低咏速下可以保留三连作为瞬发资源用来打双星灵，机制的处理可以通过排轴使机制对齐冰阶段或双星灵的瞬发阶段来处理。</p>
-<p>三连咏唱的最大化利用是尽量将三连用来打双星灵，但如果在感觉瞬发用于处理机制都很吃紧的时候，就不要想着最大化利用好高骛远。</p>
-<p>可以参考<em><strong>常识性问题Q12：不考虑跑位的话三连和即刻都用来干什么比较好？</strong></em></p>
-<p><em>Rescrette</em>：这次零式没有三连比较困难处理的机制只有p3s的火龙卷和本体的三运，其他时候要么会天然转好一层，要么不依赖三连。</p>
-<h4 id="Q4：开荒期打着循环中间突然要跑机制了怎么办？"><a href="#Q4：开荒期打着循环中间突然要跑机制了怎么办？" class="headerlink" title="Q4：开荒期打着循环中间突然要跑机制了怎么办？"></a><strong>Q4：开荒期打着循环中间突然要跑机制了怎么办？</strong></h4><p>如果你提着杖子干跑，多半是没有消耗瞬发的意识，请安排你的瞬发资源。</p>
-<p>在开荒期，我建议对机制没有一定了解的新手只打标准循环，以腾出更多的瞬发来跑位应对机制。只打标准循环的话瞬发资源是溢出的，三连在开荒期可以考虑卡着gcd硬开来处理机制（仅限于初见或者还没有稳定轴的排轴期，稳定后请不要卡着gcd使用三连）</p>
-<p>另一种解决方法：留一个或者两个三连，可以参见上一个问题的解答。</p>
-<p>在紧急的情况下，为了不丢gcd跑位，通常处理方式是打一个瞬发（异言&#x2F;雷云&#x2F;火苗）然后开三连进行处理。</p>
-<p>如果三连在火悖论之前，还可以考虑开一个激情以多获得一个火苗，延长跑位时间和天语时间增加容错，尽管这么做等于没有规划你的激情。</p>
-<p><del><em>池千</em>：瞬发这么多不打留着过年？瞬发这么多不打留着过年？瞬发这么多不打留着过年？瞬发这么多不打留着过年？瞬发这么多不打留着过年？</del></p>
-<h4 id="Q5：三连-激情-黑魔纹-魔泉好了，没有合适的窗口，应该卡gcd硬插吗？"><a href="#Q5：三连-激情-黑魔纹-魔泉好了，没有合适的窗口，应该卡gcd硬插吗？" class="headerlink" title="Q5：三连&#x2F;激情&#x2F;黑魔纹&#x2F;魔泉好了，没有合适的窗口，应该卡gcd硬插吗？"></a><strong>Q5：三连&#x2F;激情&#x2F;黑魔纹&#x2F;魔泉好了，没有合适的窗口，应该卡gcd硬插吗？</strong></h4><p>如果可以的话，打一个瞬发制造窗口，如果实在没有，容许硬插。</p>
-<p>在稳定你的轴之后，不要再有这种硬插的情况，如果出现了，那就是你的问题，改。排一个瞬发进去开技能，最常见也是最好用而且通常不会影响到轴的办法是：打一个异言。</p>
-<p><strong>关于魔泉：</strong>如果在不影响全局使用次数的前提下，魔泉可以考虑延后一些开，而非卡GCD。魔泉的生效时间相较于其他能力技有一定的延迟，硬插的影响会更大。</p>
-<p><strong>请尽可能不要硬插魔泉。</strong></p>
-<h4 id="Q6：为什么我gcd利用率上不去？"><a href="#Q6：为什么我gcd利用率上不去？" class="headerlink" title="Q6：为什么我gcd利用率上不去？"></a><strong>Q6：为什么我gcd利用率上不去？</strong></h4><p>如果看完下面段落还没有理解是什么意思，请参考视频内容进行纠错。</p>
-<p><a href="https://www.bilibili.com/video/av602881259">【黑魔常见问题01期】新手必看向：为什么我伤害打不高？GCD利用率上不去？</a></p>
-<p><strong>① 检查自己是不是卡gcd开能力技了，可以参考警察网。</strong></p>
-<p><strong>请不要直接在读条后插入能力技。</strong></p>
-<p>除了三挡冰转三挡火&#x2F;三挡火转三档冰的半咏唱之外，任何能力技，都需要通过瞬发窗口来打出插入。</p>
-<p><strong>② 断读条</strong></p>
-<p>你知道怎么做。调整你的循环，熟练副本机制，使你在需要跑位的时候有瞬发打，而不是读条读一半突然发现要跑位，而断掉读条。</p>
-<p><strong>③ 滑步</strong></p>
-<p>跳转目录问题：<strong>滑步有用吗？为什么说尽量别滑步？</strong></p>
-<h4 id="Q7：卡gcd硬插技能是亏的吗？有什么影响？"><a href="#Q7：卡gcd硬插技能是亏的吗？有什么影响？" class="headerlink" title="Q7：卡gcd硬插技能是亏的吗？有什么影响？"></a><strong>Q7：卡gcd硬插技能是亏的吗？有什么影响？</strong></h4><p><em><strong>血妈亏。</strong></em>能不卡着开，就不要卡着开。</p>
-<p><strong>插一个能力技等于丢失0.7s的gcd。</strong></p>
-<p><strong>对新手而言：</strong>能不卡着开，就不要卡着开。任何情况下，请以不卡gcd开能力技优先。</p>
-<p><strong>对进阶者而言：</strong>卡一个gcd开三连，等于这个三连带来的收益全无。卡一个gcd开黑魔纹，等于少吃5秒黑魔纹。卡一个gcd等于你的整体跳蓝时间都会改变，对后面的轴影响很大。</p>
-<p>拓展阅读：当然，也存在合理卡gcd的情况，但不在本文讨论范围内，也并不是本文面向的对象需要阅读的。详情请参考《黑魔法师职业攻略-深造篇》。</p>
-<p>由于以下内容可能对新人造成误导，请酌情阅读，并且不要将它记下来，就当你没看过：</p>
-<p>简而言之：当卡这个gcd并不会让你在全局少打一个技能，或者能让你赚出比少打这个技能更多的收益（当然一般没有这种情况），这个gcd就是可以卡的。</p>
-<h4 id="Q8：怎么能不卡gcd？"><a href="#Q8：怎么能不卡gcd？" class="headerlink" title="Q8：怎么能不卡gcd？"></a><strong>Q8：怎么能不卡gcd？</strong></h4><p><strong>① 打一个瞬发制造能力技插入窗口。</strong>异言&#x2F;雷云&#x2F;火苗&#x2F;冰悖论，还有即刻&#x2F;三连提供的瞬发。</p>
-<p>每个gcd瞬发窗口可以插入最多<strong>两个</strong>能力技。</p>
-<p>能力技不要按得太晚了。</p>
-<p>要注意的是，部分情况下高咏速双插能力技也会卡gcd，半咏唱单插也会卡gcd。</p>
-<p><strong>② 半咏唱可以插入最多一个能力技。</strong></p>
-<p>三档冰转三档火&#x2F;三档火转三档冰的那个短读条叫做半咏唱。</p>
-<p><strong>③ 改善你的网络延迟。</strong></p>
-<p>高Ping玩家可能会因为延迟导致卡gcd。</p>
-<h4 id="Q9：黑魔纹里双插会卡gcd吗？"><a href="#Q9：黑魔纹里双插会卡gcd吗？" class="headerlink" title="Q9：黑魔纹里双插会卡gcd吗？"></a><strong>Q9：黑魔纹里双插会卡gcd吗？</strong></h4><p>高咏速会。</p>
-<p>高咏速下（指2000+的咏速），<strong>半咏唱单插</strong>视乎延迟是会卡一点gcd的，<strong>瞬发双插</strong>也有概率会，<strong>黑魔纹里双插</strong>百分百会卡gcd，<strong>黑魔纹里半咏唱单插</strong>百分百会卡gcd。</p>
-<p>总体卡不卡gcd几乎可以说视乎延迟决定，但是黑魔纹里双插肯定卡。</p>
-<p>在低咏速（指884~1352）中，黑魔纹里双插仍然会有卡gcd的问题存在，尽可能地不要在黑魔纹中双插。</p>
-<h4 id="Q10：爆发药卡gcd吗？怎么办？"><a href="#Q10：爆发药卡gcd吗？怎么办？" class="headerlink" title="Q10：爆发药卡gcd吗？怎么办？"></a><strong>Q10：爆发药卡gcd吗？怎么办？</strong></h4><p>概率卡，目前好像还没有解决办法，卡了就卡了，没办法。</p>
-<p><strong>记住爆发药是一个只能单插的东西，他要占用至少一整个瞬发窗口，运气好你单插不卡，运气不好你单插爆发药都会卡。</strong></p>
-<h4 id="Q11：我的gcd利用率多少算正常？"><a href="#Q11：我的gcd利用率多少算正常？" class="headerlink" title="Q11：我的gcd利用率多少算正常？"></a><strong>Q11：我的gcd利用率多少算正常？</strong></h4><p>个人标准如下：</p>
-<p>纯标准循环：98%以上</p>
-<p>包含进阶循环（包括但不限于标双，双星灵，压冰等）：97%以上</p>
-<h4 id="Q12：不考虑跑位的话三连和即刻都用来干什么比较好？"><a href="#Q12：不考虑跑位的话三连和即刻都用来干什么比较好？" class="headerlink" title="Q12：不考虑跑位的话三连和即刻都用来干什么比较好？"></a><strong>Q12：不考虑跑位的话三连和即刻都用来干什么比较好？</strong></h4><p>参见常识性问题Q3：起手之后，三连一般用在哪里？怎么安排？。</p>
-<p>瞬发绝望、双星灵里的瞬发火3都可以，全程标准就尽量给火4和绝望，当然跑位优先。如果你连走位都不能很好地处理，那还是算了吧。</p>
-<h4 id="Q13：意外断天语怎么办？"><a href="#Q13：意外断天语怎么办？" class="headerlink" title="Q13：意外断天语怎么办？"></a><strong>Q13：意外断天语怎么办？</strong></h4><p>读条冰2回到天语状态，<del>或者跳了</del>下辈子注意点。</p>
-<p>冰2比冰3读条更短，能让你更快地恢复天语状态，长读条冰3有点笨笨的。</p>
-<h4 id="Q14：BOSS的技能有随机性，我要怎么排轴？"><a href="#Q14：BOSS的技能有随机性，我要怎么排轴？" class="headerlink" title="Q14：BOSS的技能有随机性，我要怎么排轴？"></a><strong>Q14：BOSS的技能有随机性，我要怎么排轴？</strong></h4><p>我的建议是：（对新手来说）排一个能够适配所有情况的轴，比如P4S门神的地板可以两个三连狂跑，本体一运结束后可以打一个异言来应对接下来的靠近和远离（远见&#x2F;近思的魔击），四运可以两个三连+一堆瞬发狂跑。</p>
-<p>又或者把某个固定要跑位的地方，安排到冰里或者处于双星灵中<del>，当然等你有这个意识的时候也不会问这个问题了……</del></p>
-<h4 id="Q15：我装等xxx，打xxxxRD是正常的吗？"><a href="#Q15：我装等xxx，打xxxxRD是正常的吗？" class="headerlink" title="Q15：我装等xxx，打xxxxRD是正常的吗？"></a><strong>Q15：我装等xxx，打xxxxRD是正常的吗？</strong></h4><p><strong>看平均装等判断RD是不准确的</strong>，不同部位的装备对输出的提升不尽相同。<br><img src="/.com//Aspose.Words.0fe056d1-801c-41b5-a95b-c3bab33832eb.006.PNG"></p>
-<p>590武器相比580HQ满禁断提升了约1.6%</p>
-<p>600武器相比580HQ满禁断提升了约3.6%</p>
-<p>605武器相比580HQ满禁断提升了约4.6%</p>
-<p>600衣服相比580HQ满禁断提升了约1%</p>
-<p>600首饰相比580HQ满禁断提升了约0.5%</p>
-<p>（来源：<a href="https://www.bilibili.com/video/av982224692">【FF14】如何自助配装？高难本配装原理详解</a>）</p>
-<p>我可以提供一些个人记录让你参考一下（仅供参考，我很菜别骂我）。5月3日及此前的都是首周记录，装等比我高，但rd打不过我的可以检查下是不是自己循环问题<strong>（有武器的那档可以无视，仅供参考武器的数值霸凌有多严重，前几周武器长了手都能橙紫）</strong></p>
-<p>装等581（就roll到一个耳坠），咏速580hq满禁断开荒，today’s截止日期是6.1，循环是标双混打标准居多，随缘触发打双星灵。</p>
-<p><del>后面炒股属于是武器数值霸凌现场，纯纯的崽种。别问我什么装等打什么正不正常了，我都没把亲友首周固定队黑魔开荒全橙的记录放上来打不出来单纯是人的问题谢谢谢谢他没毛装备装备比我还烂。</del></p>
-<table>
-<thead>
-<tr>
-<th align="left"><strong>副本名</strong></th>
-<th align="left"><strong>RD</strong></th>
-<th align="left"><strong>日期</strong></th>
-<th align="left"><strong>Hist. %</strong></th>
-<th align="left"><strong>Today’s %</strong></th>
-<th align="left"><strong>备注</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">P1S</td>
-<td align="left">7884.4</td>
-<td align="left">4月28日</td>
-<td align="left"><strong>89</strong></td>
-<td align="left"><strong>59</strong></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">P1S</td>
-<td align="left">8581.8</td>
-<td align="left">5月7日</td>
-<td align="left"><strong>97</strong></td>
-<td align="left"><strong>84</strong></td>
-<td align="left">装等585（605武器+耳坠）</td>
-</tr>
-<tr>
-<td align="left">P2S</td>
-<td align="left">7412.3</td>
-<td align="left">4月27日</td>
-<td align="left"><strong>71</strong></td>
-<td align="left"><strong>39</strong></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">P2S</td>
-<td align="left">8211.3</td>
-<td align="left">5月9日</td>
-<td align="left"><strong>95</strong></td>
-<td align="left"><strong>81</strong></td>
-<td align="left">装等585（605武器+耳坠）</td>
-</tr>
-<tr>
-<td align="left">P3S</td>
-<td align="left">7891.9</td>
-<td align="left">5月3日</td>
-<td align="left"><strong>92</strong></td>
-<td align="left"><strong>57</strong></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">P4S门神</td>
-<td align="left">8294.3</td>
-<td align="left">5月3日</td>
-<td align="left"><strong>81</strong></td>
-<td align="left"><strong>45</strong></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">P4S本体</td>
-<td align="left">7834.4</td>
-<td align="left">5月3日</td>
-<td align="left"><strong>42</strong></td>
-<td align="left"><strong>18</strong></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">P4S本体</td>
-<td align="left">8547.4</td>
-<td align="left">5月10日</td>
-<td align="left"><strong>93</strong></td>
-<td align="left"><strong>70</strong></td>
-<td align="left">装等586（605+耳坠+项链）</td>
-</tr>
-</tbody></table>
-<h4 id="Q16：我开荒初通打什么颜色正常？"><a href="#Q16：我开荒初通打什么颜色正常？" class="headerlink" title="Q16：我开荒初通打什么颜色正常？"></a><strong>Q16：我开荒初通打什么颜色正常？</strong></h4><p>什么颜色都正常。开荒打高了证明你有实力，打低了也不能证明啥，死一次就灰了，不是很正常的事情吗！（</p>
-<h4 id="Q17：标准循环的雷dot怎么续？总是断怎么办？"><a href="#Q17：标准循环的雷dot怎么续？总是断怎么办？" class="headerlink" title="Q17：标准循环的雷dot怎么续？总是断怎么办？"></a><strong>Q17：标准循环的雷dot怎么续？总是断怎么办？</strong></h4><p><strong>打纯标准最好把雷和异言完全独立于冰火循环之外。</strong></p>
-<p>这句话的意思是，你的雷和异言可以在冰火循环的任何地方插入，只要不影响整体的大循环（比如插入过多导致断天语），就没问题。</p>
-<p>可以考虑把雷轴和冰火循环分开来，在保证天语不会断的前提下，雷dot快掉了就补雷，无论你处于冰火循环的哪一个阶段，手动补雷或者激情雷都是没关系的。</p>
-<h4 id="Q18：火里可以补雷吗？读条雷呢？"><a href="#Q18：火里可以补雷吗？读条雷呢？" class="headerlink" title="Q18：火里可以补雷吗？读条雷呢？"></a><strong>Q18：火里可以补雷吗？读条雷呢？</strong></h4><p><strong>在全程标准的前提下，火里补雷是非常合理的</strong>，如果坚持无脑只在冰里补雷，会导致每次魔泉会截断一段时间的雷。激情雷是不会因为你在火里打出雷云就无法继续后面激情雷的，两层充能怎么说都够你用，所以不要吝啬，在火里dot快掉了就补吧。</p>
-<p><strong>火里读条补雷没问题，天语不断随便你读。</strong></p>
-<p>还是上面的那句话：</p>
-<p><strong>打纯标准最好把雷和异言完全独立于冰火循环之外。</strong></p>
-<p>顺便，雷云的持续时间是40s，足够你在冰里不补雷，将雷云带到下一轮循环的火里使用（也就是火里补雷的一种情况）。如果中途出现什么意外情况（比如火里插了异言等等），也只是多一个gcd。</p>
-<p><img src="/.com//Aspose.Words.0fe056d1-801c-41b5-a95b-c3bab33832eb.007.PNG" alt="descript"></p>
-<p>如果你的dot覆盖率低于90%<del>（我都不说95%98%了）</del>建议是先自查一下是不是补雷有问题，毕竟大部分情况下应该是覆盖了不少，而不是截断。</p>
-<p>实在不行，你火里打了雷云覆盖了一部分dot来跑位，又怕冰里不补雷，下一次火阶段的dot就掉了，那就冰里再补一次呗。火里甩完雷云，冰里多读一个雷是一种调整的办法，治这种喜欢拿雷云跑位乱雷轴的情况有奇效，代价是你覆盖损失了一截dot时间。</p>
-<p>标准循环的异言实在是溢出到不行，<strong>我建议在保证dot不截断的情况下，</strong>不要在火里打雷云跑位，有异言先打异言，不然你的雷轴很容易乱。</p>
-<h4 id="Q19：补雷时间在火1后面怎么办？-激情开了，在火1前dot还剩一段时间，要把激情给火1还是覆盖dot？"><a href="#Q19：补雷时间在火1后面怎么办？-激情开了，在火1前dot还剩一段时间，要把激情给火1还是覆盖dot？" class="headerlink" title="Q19：补雷时间在火1后面怎么办？&#x2F;激情开了，在火1前dot还剩一段时间，要把激情给火1还是覆盖dot？"></a><strong>Q19：补雷时间在火1后面怎么办？&#x2F;激情开了，在火1前dot还剩一段时间，要把激情给火1还是覆盖dot？</strong></h4><p>给火1呗。</p>
-<p>纯标准的情况下，<strong>把雷和异言完全独立于冰火循环之外</strong>。打一个激情火不妨碍你后面补雷，前面说过了，即便是火里读条补雷也是没问题的。</p>
-<p>如果你不理解为什么这么做，那你就给火悖论。如果你能理解，也知道覆盖雷会导致什么后果，也明白后面的雷轴怎么安排，那随便你。<del>那你也就不会看这个问题了。</del></p>
-<h4 id="Q20：我开荒不知道黑魔纹在哪下怎么办？"><a href="#Q20：我开荒不知道黑魔纹在哪下怎么办？" class="headerlink" title="Q20：我开荒不知道黑魔纹在哪下怎么办？"></a><strong>Q20：我开荒不知道黑魔纹在哪下怎么办？</strong></h4><p>黑魔纹、三连和魔泉，原则上都是好了就放，方便后续调整。开荒期可以将三连保留用于处理机制。</p>
-<p>黑魔纹与魔泉即便后续调整也只是在时间上前后微调（例如将黑魔纹适当延后以对齐机制），而不要选择“我觉得这里放了吃不满，所以我不放了”，你延后很可能就直接损失一整个CD，少放一整个黑魔纹。</p>
-<p>其次，在开荒前，可以先找相近咏速的第一视角录屏，甚至不是相近咏速的也可以，多看几个，看看别人的黑魔纹在哪里下的。</p>
-<p>如果你的使用次数有问题，警察网会告诉你。</p>
-<h4 id="Q21：异言该插在哪里好啊？"><a href="#Q21：异言该插在哪里好啊？" class="headerlink" title="Q21：异言该插在哪里好啊？"></a><strong>Q21：异言该插在哪里好啊？</strong></h4><p>标准循环随便你插。</p>
-<p>如果打纯标准循环，异言的资源是溢出的，你火里插能力技的时候打掉一个去开能力技，或者跑位，冰里泄出去填补冰阶段都是没问题的。</p>
-<p>非标准的进阶循环，那看情况给，通常是用来火阶段收尾作为瞬发提供能力技窗口，以及填补冰阶段的瞬发来等跳蓝。<del>不过打到进阶循环了你也该知道这玩意儿怎么用了。</del></p>
-<p>多打打就明白了。</p>
-<h4 id="Q22：我通晓总是溢出，怎么办？"><a href="#Q22：我通晓总是溢出，怎么办？" class="headerlink" title="Q22：我通晓总是溢出，怎么办？"></a><strong>Q22：我通晓总是溢出，怎么办？</strong></h4><p><em><strong>丶祈祷丶</strong></em>：“你进冰时如果通晓已经有两层且指针过半了，那就在冰里先泄掉一个。”</p>
-<h4 id="Q23：瞬双3、火双4、瞬单2这些是什么啊？"><a href="#Q23：瞬双3、火双4、瞬单2这些是什么啊？" class="headerlink" title="Q23：瞬双3、火双4、瞬单2这些是什么啊？"></a><strong>Q23：瞬双3、火双4、瞬单2这些是什么啊？</strong></h4><p>请参见<em><strong>参考链接</strong></em>里的6.0黑魔进阶教程。</p>
-<p>简单说，将星灵循环分为单星灵和双星灵。</p>
-<p>单星灵就是星灵进冰，在冰里打出火3或者火2，因为冰状态下火魔法不耗蓝，所以可以达到多少蓝进火就能打对应的火4，比如7900蓝进火也能打4444d。</p>
-<p>瞬单4的意思是瞬发火3的单星灵，并能打出4火4绝望。瞬发的火3通常由即刻提供，个别情况下也可以由三连提供。</p>
-<p>长单4的意思是长读条的火3&#x2F;火2，并能打出4火4绝望。</p>
-<p>双星灵分为两类，瞬发火3的双星灵，和带火苗的双星灵（当然你也可以长读条火3，但是长双实在很一言难尽）。</p>
-<p>由于双星灵是星灵进冰再星灵进火，意味着进火后需要打技能来从1档火回到3档火状态，但是能直接回到3档火状态的火3需要4000蓝，因此如果有火苗，就能省下这4000蓝。</p>
-<p>瞬双3的意思是瞬发火3的双星灵，并能打出3火4绝望。</p>
-<p>火双4的意思是星灵进火后用火苗回到3档火状态，并能打出4火4绝望。具体咏速阈值不一一详述。</p>
-<h4 id="Q24：瞬双2是亏的还是赚的啊？"><a href="#Q24：瞬双2是亏的还是赚的啊？" class="headerlink" title="Q24：瞬双2是亏的还是赚的啊？"></a><strong>Q24：瞬双2是亏的还是赚的啊？</strong></h4><p><em>号被</em>：你五块买进鞋子六块卖出去看他涨价了七块买进来八块又卖出去请问你赚了亏了</p>
-<p>赚的，但是没正常赚，雷轴允许的情况下可以打，建议只在调轴的时候打。</p>
-<p>如果你【弄不明白雷轴是什么】或者【不知道为什么自己只能打瞬双2而不是瞬双3】，那我建议你别打。</p>
-<h4 id="Q25：滑步有用吗？为什么说尽量别滑步？"><a href="#Q25：滑步有用吗？为什么说尽量别滑步？" class="headerlink" title="Q25：滑步有用吗？为什么说尽量别滑步？"></a><strong>Q25：滑步有用吗？为什么说尽量别滑步？</strong></h4><p><strong>能读条尽量别滑步，能滑步处理的尽量不打瞬发。</strong></p>
-<p>因为大部分人滑步都滑过头了，黑魔的滑步不像奶妈，尤其是长读条的滑步，只能挪动一小步大概一个角色模型身位这么多，再远了就是丢gcd的范畴了，你觉得自己滑的很远很帅，其实你丢gcd丢得很惨。</p>
-<p><strong>可以说只要滑步，几乎没有不丢gcd的。多多少少会丢一点。</strong></p>
-<p>黑魔最适合滑步的是半咏唱的期间，其他时候长读条都只能蠕动。</p>
-<p>能读尽量不滑步，滑步<strong>一点点</strong>可以处理的东西别交瞬发，要滑很远的你还是交瞬发而不是滑步过去吧。</p>
-<h4 id="Q26：我在外面读条吃不到奶怎么办？"><a href="#Q26：我在外面读条吃不到奶怎么办？" class="headerlink" title="Q26：我在外面读条吃不到奶怎么办？"></a><strong>Q26：我在外面读条吃不到奶怎么办？</strong></h4><p>人的问题。这次零式没有任何一个地方是会强制黑魔吃不到奶的，包括4层门神的那个老大难地板黑魔纹问题。</p>
-<p>请你调整黑魔纹的位置和时间，理论上来说，没有地方是吃不到群奶的，如果有，那就是你的问题。</p>
-<p>另一个普遍解决方法：魔罩，如果即将砸下AOE，开个昏乱。</p>
-<p><del>需要我写一个魔罩进轴的几个关键位置吗？不要让奶妈左右你的思想！</del></p>
-<h1 id="循环问题"><a href="#循环问题" class="headerlink" title="循环问题"></a><strong>循环问题</strong></h1><h4 id="Q0：XX循环怎么样？能不能打？"><a href="#Q0：XX循环怎么样？能不能打？" class="headerlink" title="Q0：XX循环怎么样？能不能打？"></a><strong>Q0：XX循环怎么样？能不能打？</strong></h4><p><strong>先理解一个循环的原理、收益、优劣、适用情景，再考虑将它应用到实战中。</strong></p>
-<p>个人认为在<strong>没能理解一个循环的原理之前，不应该打这个循环</strong>。</p>
-<p>不要胡乱把新的东西投入实战，<strong>除非你知道自己在干什么。</strong></p>
-<p>你所想的东西前人都尝试过了，甚至资料里都已经列出来了，你猜猜为什么大家不打这个。</p>
-<p>一个循环不能大规模应用，无非是两种原因：</p>
-<p>① 消耗同样多的资源，收益不如其他循环（例如星灵带冰4的大部分循环）</p>
-<p>② 非常规条件下，可适配的环境过少（例如新短、一些将冰悖论延后到火中打的循环）</p>
-<h4 id="Q1：新手打什么循环好？"><a href="#Q1：新手打什么循环好？" class="headerlink" title="Q1：新手打什么循环好？"></a><strong>Q1：新手打什么循环好？</strong></h4><p>问我我就一律推荐标准循环。</p>
-<p>打不明白就标准循环，4441444d就完事了。标准循环是泛用性最高的循环，下限高，泛用性也高，标准打明白了输出真的不低。先把标准打明白了再惦记你那个双星灵<del>，没学会走就想着飞啊？你会问这个问题我只能建议你打标准啊！！</del></p>
-<p>此外，由于单星灵的瞬发收支基本平衡，新手不要老惦记打很多的单星灵去压冰，暂且不论机制不熟练丢gcd的问题，还可能会导致全局双星灵数量减少，收益不升反降。</p>
-<h4 id="Q2：我打标准循环只有灰绿蓝正常吗？为什么我的颜色不好看？"><a href="#Q2：我打标准循环只有灰绿蓝正常吗？为什么我的颜色不好看？" class="headerlink" title="Q2：我打标准循环只有灰绿蓝正常吗？为什么我的颜色不好看？"></a><strong>Q2：我打标准循环只有灰绿蓝正常吗？为什么我的颜色不好看？</strong></h4><p>不正常。logs颜色问题首先要看两点。在gcd利用率拉满、装备合格的前提下，标准循环是可以轻松紫色的，并且在循环正确的前提下，gcd利用率与伤害几乎直接挂钩（全崩溃100%gcd的出门左转秘术师行会）。</p>
-<ol>
-<li>装备是否过于差（包括但不限于，580蓝装甚至570蓝装，580hq洞洞装等）</li>
-<li>手法是否有问题，这里请参考警察网的建议清单</li>
-<li>零式层数问题，1、2层数据样本多，垫子多，更容易打，4层那种打蓝绿灰我觉得完全可以理解</li>
-</ol>
-<p>PS.在当前（大伙都已经毕业）的环境下，我觉得580hq打到蓝绿已经可以了。纯标准应该是绿色差不多，主要还是看gcd利用率和雷覆盖率，查询警察网。</p>
-<p>（6月4日修正版，经询问580hq乞丐禁断非纯标准可以打蓝没问题，紫色有待商榷，1、2层是可以在带双星灵的情况下打紫的，4层应该不行）</p>
-<p>全程标准循环的正常人手法标准应该是（接近毕业或毕业装）蓝紫，如果到第六周还没有装备还是一身580hq的话，追求个蓝绿就可以了。</p>
-<h4 id="Q3：什么时候可以开始考虑打别的循环？"><a href="#Q3：什么时候可以开始考虑打别的循环？" class="headerlink" title="Q3：什么时候可以开始考虑打别的循环？"></a><strong>Q3：什么时候可以开始考虑打别的循环？</strong></h4><p>把标准循环打明白了，量化标准在下一个问题里。</p>
-<p><strong>什么时候你随便乱动，闭眼用脚打都能正常打基础轴（标准循环），就可以考虑开始打别的。</strong></p>
-<p>如果你的装等合格，最简单的办法是看颜色，如果装等太低，可以看警察网来判断。</p>
-<p>在装等合格（590及以上），至少把标准打到蓝紫，同时颜色的标准视装备而定，580hq纯标准蓝绿就够了，主要还是要看gcd利用率和dot覆盖率是否达标，循环是否有错误。</p>
-<p>只要你有自信打好也可以打着试试。</p>
-<p>关于双星灵：通过火苗双星灵了解和熟悉双星灵的原理，就知道什么时候能双什么时候该标了。</p>
-<h4 id="Q4：什么叫做把标准循环打明白了？有界定的标准吗？"><a href="#Q4：什么叫做把标准循环打明白了？有界定的标准吗？" class="headerlink" title="Q4：什么叫做把标准循环打明白了？有界定的标准吗？"></a><strong>Q4：什么叫做把标准循环打明白了？有界定的标准吗？</strong></h4><p>建议：参考警察网，公CD利用率97%以上，雷dot覆盖率95%以上，能力技次数不少使用（保持你的技能在冷却），建议清单上没有严重到中等失误。</p>
-<p>当然，不是说一定要97+&#x2F;95+，这个百分比只是作为一个参考，在一些上天频繁或者转场较长、较多的本里雷云的利用率和dot覆盖率可能不会那么理想。</p>
-<p>当你的数据达到上面的要求，能够保证你就算进阶循环没打好，中途退而求其次补救打标准也不会差到哪里去。</p>
-<p>比较推荐的标准是98+&#x2F;98+，并且没有过量的雷dot覆盖，能打到这种程度证明你对标准循环已经达到了得心应手的地步，学习进阶循环也是水到渠成的事。</p>
-<h4 id="Q5：不打进阶循环是不是就打不到橙紫？"><a href="#Q5：不打进阶循环是不是就打不到橙紫？" class="headerlink" title="Q5：不打进阶循环是不是就打不到橙紫？"></a><strong>Q5：不打进阶循环是不是就打不到橙紫？</strong></h4><p>不是，纯标准的最高上限是橙粉，但是没有必要强求纯标准去打橙色，毕业装打纯标准属于是杀鸡用牛刀。</p>
-<p><del>至少在目前的环境下，纯标准打到紫色肯定是没问题的，</del>打不到建议多从自己身上找原因，蓝色以下属于纯自己问题，蓝色属于还有进步空间。</p>
-<h4 id="Q6：什么循环伤害高？"><a href="#Q6：什么循环伤害高？" class="headerlink" title="Q6：什么循环伤害高？"></a><strong>Q6：什么循环伤害高？</strong></h4><p>你要说伤害高，那当然是双星灵或者说火4浓度更高的循环（比如雷轴完美的压冰），但是实际上这个版本的下限太高，以至于你的循环就算抠烂了最终也不过比别人多5%~8%的输出，有时影响不如别人多直暴几个，所以小结看图：</p>
-<p><img src="/.com//Aspose.Words.0fe056d1-801c-41b5-a95b-c3bab33832eb.008.PNG" alt="descript"></p>
-<h4 id="Q7：进阶循环（双星灵等）就一定能打高吗？为什么不让我尝试？"><a href="#Q7：进阶循环（双星灵等）就一定能打高吗？为什么不让我尝试？" class="headerlink" title="Q7：进阶循环（双星灵等）就一定能打高吗？为什么不让我尝试？"></a><strong>Q7：进阶循环（双星灵等）就一定能打高吗？为什么不让我尝试？</strong></h4><p>不一定能，打好了不一定会高，但是打不好一定打不高。</p>
-<p><strong>进阶循环是一个锦上添花的东西，不是雪中送炭</strong>，基础打不好，抠再多循环也没用，一旦丢了gcd甚至断了天语就是得不偿失，这也是为什么不推荐新手打进阶循环的原因。</p>
-<p><del>你猜我见过多少卡gcd打酸星灵问为什么打不高的兄弟了</del></p>
-<h4 id="Q8：打激情火还是激情雷？分别有什么优点？"><a href="#Q8：打激情火还是激情雷？分别有什么优点？" class="headerlink" title="Q8：打激情火还是激情雷？分别有什么优点？"></a><strong>Q8：打激情火还是激情雷？分别有什么优点？</strong></h4><p>“当你不知道激情火还是激情雷的时候，无脑激情雷就对了。”by我也忘了是谁说的反正不是我</p>
-<p>问这个问题说明你还没理解到，所以我一律建议无脑激情雷。</p>
-<p>全局中，即便所有激情都给雷，也还会有一个激情的富余可以给火。</p>
-<p><strong>激情雷：</strong>更多变。</p>
-<p>比如进阶里你如果打了激情雷，下一步可以打压冰的长单3&#x2F;长单4，也可以等触发火苗打火双3&#x2F;火双4，甚至如果跳蓝优秀，你可以打瞬双2&#x2F;瞬双3，但是你打了激情火的话，就变成赌雷云，跳了雷云可以打火双3&#x2F;火双4，不跳雷云只能打带火苗的标准或者长读条火2（变成啥b循环）。</p>
-<p><strong>激情火：</strong>想追标双和固定轴。</p>
-<p>哪怕一个雷云不跳你也就是多读条几个雷，但是不建议在没有严格优化轴的情况下打激情火。</p>
-<p>也可以这样分类讨论：</p>
-<p><code>	</code>对机制不熟悉时：激情火将给予你更自由的走位时间，可以将火苗用于续天语。</p>
-<p><code>	</code>熟悉机制但没有固定轴：激情火的火苗可以用来打标双，临场提供更多的收益；激情雷可以让你后面更随心所欲地打出一些需要雷云作为瞬发填充的循环，例如绝大部分情况下的双星灵。</p>
-<p><code>	</code>有固定轴或想安排固定轴时：考虑战斗时间长短，结合战斗时间决定激情火or激情雷（例如龙诗短轴中会应用抽象激情火新短循环）；排轴时在不需要雷云的地方可以保留一次激情火用以标双双双等等。</p>
-<h4 id="Q9：我激情不小心打给火了咋办？"><a href="#Q9：我激情不小心打给火了咋办？" class="headerlink" title="Q9：我激情不小心打给火了咋办？"></a><strong>Q9：我激情不小心打给火了咋办？</strong></h4><p>打了就打了呗。激情火意味着需要在固定的位置读条补雷，选择激情火可以构造一个相对稳定的轴，但是为什么让打激情雷不打激情火，当然是因为大部分人的dot覆盖率都不合格啊。</p>
-<p>雷云触发概率和期望都很高，激情给火给雷其实无所谓，不小心给错了大不了就是下次雷读个条，跳个雷云又是好汉。当然，我不是说可以乱给，只是激情这个东西本身就可以给得比较随性，激情雷只是增加了灵活性（因为雷云在火里冰里任何地方都可以插），激情火也不是不可以。</p>
-<h4 id="Q10：我想打激情火，雷覆盖率会丢吗？"><a href="#Q10：我想打激情火，雷覆盖率会丢吗？" class="headerlink" title="Q10：我想打激情火，雷覆盖率会丢吗？"></a><strong>Q10：我想打激情火，雷覆盖率会丢吗？</strong></h4><p>不会。<strong>dot覆盖率跟你激情给什么没关系</strong>。</p>
-<p>你知道为什么你觉得打激情火雷覆盖率会降低吗？因为你火里没雷云又不肯补雷，延后补雷每次断他几个gcd加起来不就低了？你这种破习惯不管打激情火还是激情雷你覆盖率都上不去只是激情雷成了你的遮羞布而已你能明白吗？</p>
-<p>短循环里星灵的火阶段不能读条雷，但是可以有雷云+三连&#x2F;即刻这种操作，只要保证不少火4不断天语随便你打，跟你打异言一个概念。</p>
-<p>如果你补这个雷亏火4那你就不补但是通常情况下补雷和火4没有冲突懂了吗？</p>
-<h4 id="Q11：新短循环（火悖论火1）有什么用？什么时候打？可以多打么？"><a href="#Q11：新短循环（火悖论火1）有什么用？什么时候打？可以多打么？" class="headerlink" title="Q11：新短循环（火悖论火1）有什么用？什么时候打？可以多打么？"></a><strong>Q11：新短循环（火悖论火1）有什么用？什么时候打？可以多打么？</strong></h4><p>①有64%概率触发火苗。</p>
-<p>②缩短循环火阶段长度。（较之标准循环，缩短了约2个GCD）</p>
-<p>由于新短并不能稳定提供一个火苗，除了一些新短的变种以外，我们并不提倡使用这个循环来替换常规标准循环，或者说，<strong>我们不建议没事打这个循环</strong>。</p>
-<p>在一些上天频繁的副本的短轴处理中，我们会使用到新短及其变种，例如龙诗。但因其略显超纲，此处不予讨论。详情请参见《牛牛轴》以及《黑魔法师职业攻略：深造篇》第八章第6小节。</p>
-<p>如果你是看主播打这个循环多，不要学。主播这么打的原因是他摆烂，而不是因为这个循环有多好。</p>
-<h4 id="Q12：单星灵该什么时候用？为什么说不建议多打单星灵？"><a href="#Q12：单星灵该什么时候用？为什么说不建议多打单星灵？" class="headerlink" title="Q12：单星灵该什么时候用？为什么说不建议多打单星灵？"></a><strong>Q12：单星灵该什么时候用？为什么说不建议多打单星灵？</strong></h4><p>只有在黑魔纹里打长单5的时候，单星灵的收益是最大化的。其余时候，请少打单星灵。</p>
-<p>黑魔纹中的长单5是收益最高的循环之一。</p>
-<p>单星灵的瞬发收支基本是平衡的，无论是长单4还是瞬单3。在消耗2个瞬发资源的情况下，长单4循环不如后文中提到的瞬单3（但是瞬单3需要即刻）。</p>
-<p>同时，单星灵的循环可变性较小，即难以在中途修改为其他循环或者插入瞬发来应急走位，因此在没有把握的情况下，不需要打太多的单星灵，否则可能会影响你的走位灵活性。</p>
-<p>这个循环为压冰提供了可能，但由于这个循环需要消耗资源，不建议牺牲双星灵的数量来打这个循环。比较好的使用时机可能是用雷云来启动这条路线，相当于不消耗额外资源的情况下替换了标准循环。 ——《6.0黑魔法师循环数据与评价》，窗Yoru</p>
-<h4 id="Q13：所以长单可以打么？什么时候打？"><a href="#Q13：所以长单可以打么？什么时候打？" class="headerlink" title="Q13：所以长单可以打么？什么时候打？"></a><strong>Q13：所以长单可以打么？什么时候打？</strong></h4><p>省流版：黑魔纹外少打长单。</p>
-<p>长单是广义压冰的重要组成部分，但是在没有理解广义压冰的本质之前，不要滥用长单。</p>
-<p>黑魔纹里的长单5是收益最高的循环之一，可以打。</p>
-<p><strong>长单打太多，可能会挤兑了双星灵的生态位</strong></p>
-<h4 id="Q14：一些抽象的循环（例如带冰4的双星灵）我要学么？"><a href="#Q14：一些抽象的循环（例如带冰4的双星灵）我要学么？" class="headerlink" title="Q14：一些抽象的循环（例如带冰4的双星灵）我要学么？"></a><strong>Q14：一些抽象的循环（例如带冰4的双星灵）我要学么？</strong></h4><p><a href="https://www.bilibili.com/video/av388636211">【黑魔常见问题04期&amp;省流笔记】突发问题如何止损？止损思路教学+非标准循环讲解</a></p>
-<p>请见该视频。</p>
-<p><strong>能正常打循环，就不要打这些抽象循环</strong>，说出来是让你知道有这么个东西可以打，不是让你真的拿到实战里，去取代正常的循环。</p>
-<p>不是让你正常能打双星灵非要多读一个冰4来打这个抽象循环。</p>
-<h4 id="Q15：新短这类非常规特殊循环什么时候用？"><a href="#Q15：新短这类非常规特殊循环什么时候用？" class="headerlink" title="Q15：新短这类非常规特殊循环什么时候用？"></a><strong>Q15：新短这类非常规特殊循环什么时候用？</strong></h4><p>① 短轴处理。</p>
-<p>在一些BOSS上天多，落地时间短的战斗中，我们会需要排针对短战斗时间的短轴。在短轴处理中，可以更多地应用特殊循环。</p>
-<p>② 止损。</p>
-<p>关于特殊循环在止损中的应用，请参见<em>本章Q14：一些抽象的循环（例如带冰4的双星灵）我要学么？</em>（即上一个问题）中的视频。</p>
-<p>③ 黑魔纹中新短5替换标准。</p>
-<p>前面忘写了补一个，如题。</p>
-<p>关于特殊循环的替换模型，请见《黑魔法师职业攻略：深造篇》。</p>
-<h4 id="Q16：在一些循环里我的蓝有剩余，为什么不能打一个火1再多打一个火4绝望？"><a href="#Q16：在一些循环里我的蓝有剩余，为什么不能打一个火1再多打一个火4绝望？" class="headerlink" title="Q16：在一些循环里我的蓝有剩余，为什么不能打一个火1再多打一个火4绝望？"></a><strong>Q16：在一些循环里我的蓝有剩余，为什么不能打一个火1再多打一个火4绝望？</strong></h4><p><strong>在火1后面如果不能打大于等于2个的火4，那就别打这个火1。</strong>——谁来着我忘了</p>
-<p>宁可直接绝望，也不要多打这个火1。</p>
-<p>猜你打的：（MP需求：7200）</p>
-<p><img src="/.com//Aspose.Words.0fe056d1-801c-41b5-a95b-c3bab33832eb.009.PNG" alt="descript"></p>
-<p><strong>↓↓↓这是不好的！！萌新不要学！！！↓↓↓</strong></p>
-<p>猜你想打：（MP需求：8800）</p>
-<p><img src="/.com//Aspose.Words.0fe056d1-801c-41b5-a95b-c3bab33832eb.010.PNG" alt="descript"></p>
-<p><strong>↑↑↑这是不好的！！萌新不要学！！！↑↑↑</strong></p>
-<h4 id="Q17：我想学习进阶循环，但是应该从哪里开始？"><a href="#Q17：我想学习进阶循环，但是应该从哪里开始？" class="headerlink" title="Q17：我想学习进阶循环，但是应该从哪里开始？"></a><strong>Q17：我想学习进阶循环，但是应该从哪里开始？</strong></h4><p>个人建议：新手学习先从火双开始，即带火苗的双星灵，同时练习长单和瞬单。</p>
-<p>个人难度排列：瞬双 &gt; 火双 &gt; 瞬单  ≥ 长单</p>
-<p>火双练习最简单的方法：当你拥有双触发（火苗、雷云）的时候，开始考虑下一轮是否打双星灵，通常预留1~2个异言。我个人是[瞬发，通常是异言]-星灵-悖论-[瞬发，通常是雷云]-[看跳蓝情况决定打不打的瞬发]-星灵-火苗。</p>
-<p>长单则是[瞬发]-星灵-悖论-[看跳蓝情况决定打不打的瞬发]-长读条火3&#x2F;火2。</p>
-<p>当你能顺利把控火双的跳蓝，也就是意识到什么时候跳蓝能够<strong>在悖论后只填充一个瞬发</strong>，什么时候跳蓝<strong>需要在悖论后填充两个瞬发</strong>，什么时候跳3200蓝，什么时候跳4700蓝的时候，就可以开始考虑尝试瞬双。</p>
-<p>瞬双的要求和技巧文档里也有，下一条就是。具体的循环怎么打我就不说了，进阶教学视频里面有，自己看去。</p>
-<h4 id="Q18：无火苗的双星灵怎么打？我总是不跳蓝或者蓝不够怎么办？"><a href="#Q18：无火苗的双星灵怎么打？我总是不跳蓝或者蓝不够怎么办？" class="headerlink" title="Q18：无火苗的双星灵怎么打？我总是不跳蓝或者蓝不够怎么办？"></a><strong>Q18：无火苗的双星灵怎么打？我总是不跳蓝或者蓝不够怎么办？</strong></h4><p>首先你要了解的一点是跳蓝机制，一档冰每跳3200蓝，两档冰每跳4700蓝，冰悖论能让你从星灵后的一档冰变成两档冰。</p>
-<p>跳蓝是服务器时间判定，3秒一跳。醒梦是服务器时间判定，天然和跳蓝错开1.5秒。</p>
-<p><strong>因此，我们必须在星灵进冰后第一时间打出冰悖论，尽快进入二档冰状态，以获取更多的跳蓝。</strong></p>
-<p>为了打出无火苗的双星灵，我们需要在火状态下打出一个火3（最好是瞬发的），而这个火3需求4000蓝。</p>
-<p>要打出这个瞬双3，我们至少要有4000+800+3*1600&#x3D;9600蓝，如果是瞬双2，则只需要4000+800+2*1600&#x3D;8000蓝。</p>
-<p>因此我们要打瞬双3，需求的是4700*2&#x3D;9400+550（醒梦一跳）&#x3D;9950蓝。</p>
-<p>但是大多数人由于不会卡跳蓝，跳蓝的情况有以下几种：</p>
-<ol>
-<li>3200+4700&#x3D;7900（不带醒梦，1档冰一跳，2档冰一跳）</li>
-<li>3200+4700+550&#x3D;8450（醒梦一跳，1档冰一跳，2档冰一跳）</li>
-<li>4700+4700&#x3D;9400（不带醒梦，2档冰两跳）</li>
-<li>4700+4700+550&#x3D;9950（醒梦一跳，2档冰两跳）</li>
-<li>3200+4700+550+550&#x3D;9000（醒梦两跳，1档冰一跳，2档冰一跳）</li>
-<li>4700+4700+550+550&#x3D;10500（醒梦两跳，2档冰两跳）</li>
-</ol>
-<p>当然还有极端情况3200+3200&#x3D;6400，能打出这个说明你双星灵白学了上面的也白看了。</p>
-<p>不难看出在A的情况下我们只能打4d，在B、C、E的情况下我们都只能打44d，最理想的情况是D和F。其中F的两跳醒梦是比较罕见的情况，要获得D、F这样的跳蓝必须要开启醒梦。</p>
-<p><strong>这里推荐一个从群友学来的技巧：进冰后，如果悖论前还没有跳蓝（第一跳蓝在悖论后，也就是第一跳4700），那么就悖论接醒梦，能够保证跳满4700*2+550&#x3D;9950蓝来完成瞬双3。</strong></p>
-<p>看不懂也没关系，看不懂说明这段话不是给你现在的阶段看的。如果看不懂，那现在你就先别惦记你那无火苗双星灵了，把标准跟带火苗的双星灵打好了，再来考虑这些。</p>
-<h4 id="Q19：跳蓝不好，不能打瞬双3，接着打双星灵好还是直接瞬发火3转单星灵？"><a href="#Q19：跳蓝不好，不能打瞬双3，接着打双星灵好还是直接瞬发火3转单星灵？" class="headerlink" title="Q19：跳蓝不好，不能打瞬双3，接着打双星灵好还是直接瞬发火3转单星灵？"></a><strong>Q19：跳蓝不好，不能打瞬双3，接着打双星灵好还是直接瞬发火3转单星灵？</strong></h4><p><strong>关于瞬双2是亏的还是赚的：</strong>请参见<strong>常识性问题：Q24。</strong></p>
-<p><strong>如果你要打随机轴</strong>：不考虑调轴和雷轴的情况下，双星灵是局部最优解。双星灵比单星灵多的是实打实的威力，但是仍然要考虑后续的瞬发安排，不要竭泽而渔。</p>
-<p><em>Rescrette</em>：双比单多的是实打实的威力，而多个火4，只是让轴延长并多个高威力的公CD。考虑到收尾可能会提前绝望收尾少打火4，这个多的火4不一定能赚。</p>
-<p><strong>如果你要打固定轴</strong>：考虑GCD总数的稳定性，求稳，转化为单星灵，保证GCD总数相同。同样地，假设转为单星灵会让你多打一个火4，你可能需要为了迁就轴的稳定性，而不打这个火4。</p>
-<p>关于瞬双n与瞬单n+1之间的替换详情，请参见《黑魔法师职业攻略：深造篇》中第八章的内容。</p>
-<p>省流版：当收尾有雷云时，瞬双2总是不亏于瞬单3。由于F4和雷云的占用时间并不相同，最关键的点在于雷云和F4的时间差能不能导致在末尾多打出一个技能。</p>
-<p><img src="/.com//Aspose.Words.0fe056d1-801c-41b5-a95b-c3bab33832eb.011.PNG"></p>
-<h4 id="Q20：如果进冰打悖论卡跳蓝了，没有别的瞬发，能打个崩溃缓个GCD吗？"><a href="#Q20：如果进冰打悖论卡跳蓝了，没有别的瞬发，能打个崩溃缓个GCD吗？" class="headerlink" title="Q20：如果进冰打悖论卡跳蓝了，没有别的瞬发，能打个崩溃缓个GCD吗？"></a><strong>Q20：如果进冰打悖论卡跳蓝了，没有别的瞬发，能打个崩溃缓个GCD吗？</strong></h4><p>不能，傻逼才打崩溃。 </p>
-<p>没有别的瞬发我建议你别打这个双星灵，尤其是对自己跳蓝没有把握的情况下。</p>
-<p><code> </code>如果你已经开始打了，那直接原地开始长读条火3或者火2，转为长单好了，及时止损，并且视前面跳蓝情况，有一定在读条期间跳蓝的期望。</p>
-<h4 id="Q21：什么时候替换不同的循环？什么时候该打标准，什么时候该打其他循环（例如双星灵）？"><a href="#Q21：什么时候替换不同的循环？什么时候该打标准，什么时候该打其他循环（例如双星灵）？" class="headerlink" title=" Q21：什么时候替换不同的循环？什么时候该打标准，什么时候该打其他循环（例如双星灵）？"></a><code> </code><strong>Q21：什么时候替换不同的循环？什么时候该打标准，什么时候该打其他循环（例如双星灵）？</strong></h4><p>脱离全局，仅专注于局部，甚至只是单纯去讨论某个小循环与另一个循环的优劣，这种做法是有很大问题的。——《黑魔法师职业攻略：深造篇》</p>
-<p>我个人反正是看跳蓝和触发，有触发就打火双，没触发如果跳蓝理想也可以打瞬双。黑魔的循环是自由的，但是自由的前提是你得有这个在标准和各种循环之间切换不过载的能力，不要把自己打晕进去了天语断了。</p>
-<p>最好的解决途径：多打木桩。</p>
-<p>在进阶后的排轴中，你将会面对的问题不止这些，这个时候我们通常忽略机制对齐，需要考虑的就是全局收益的问题了。详情请参考即将推出的《黑魔法师职业攻略：深造篇》。</p>
-<h4 id="Q22：什么是排轴？"><a href="#Q22：什么是排轴？" class="headerlink" title="Q22：什么是排轴？"></a><strong>Q22：什么是排轴？</strong></h4><p>通过安排某个阶段打某个循环以对齐机制&#x2F;爆发&#x2F;能力技，或者在某副本的某段时间中安排一段循环完全固定。</p>
-<p>排轴可以分为能力技轴和技能轴（循环轴）两种，能力技轴指仅包括能力技在时间上安排的轴，技能轴指具体到每一个gcd打什么技能什么循环的轴。</p>
-<p>以下是一些排轴的例子，这些都可以称为排轴。</p>
-<ol>
-<li>P4S门神每次剧场机制安排两个三连来跑位（能力技轴）</li>
-<li>每次120s团辅期中安排两个异言（技能轴的一种）</li>
-<li>固定从某个机制读条开始，接下来打标双双双单标双双双（循环轴）</li>
-<li>固定在某个地方打激情火，触发的火苗用于后续跑位而非火双。</li>
-</ol>
-<h4 id="Q23：排轴中有意外的火苗触发怎么处理？"><a href="#Q23：排轴中有意外的火苗触发怎么处理？" class="headerlink" title="Q23：排轴中有意外的火苗触发怎么处理？"></a><strong>Q23：排轴中有意外的火苗触发怎么处理？</strong></h4><p>为了轴更固定，你可以选择点掉或者是打掉来替换一些技能。</p>
-<p>参见<a href="https://docs.qq.com/doc/DRnVhdEVwR214UE1X">《黑魔法师职业攻略：深造篇》</a>中第二章第4小节的内容：</p>
-<p>在排轴过程中，我们一般是去除随机性的，即按照不触发火苗的情况排轴。而在实战中，或多或少会触发一些火苗，我们将这种火苗称为意外火苗。接下来我们讨论意外火苗的使用方法和造成的收益。</p>
-<h4 id="Q24：我应该抄轴吗？"><a href="#Q24：我应该抄轴吗？" class="headerlink" title="Q24：我应该抄轴吗？"></a><strong>Q24：我应该抄轴吗？</strong></h4><p>看你（和你的咏速）。</p>
-<p>对黑魔而言，自己排轴和抄别人的轴体验差别比较大，尤其是在循环轴上。</p>
-<p><strong>我永远不建议任何自己轴没打明白的人去接触更难的其他人排好的轴，尤其是你连自己本来该打的东西怎么打都没打明白的时候。</strong></p>
-<p>能力技的轴是最泛用的，循环轴的抄轴通常见于低咏速，比如884咏速下轴可以完全固定打，高咏速较难抄轴，通常随机应变得多。</p>
-<p>需要注意的是：不是抄来的轴就一定好。尽管有最优解存在，但是<strong>如果你抄不明白，那不如不抄。</strong></p>
-<p>有些循环轴会让你眼前一亮思路豁然开朗（比如第一次看见压冰轴的时候我很震撼），有些则只是让你觉得“这么打好像跟我也没什么区别”。</p>
-<p>尽可能不要死抄、死记轴，常言说得好，只会抄是没用的，黑魔的循环是最多变最灵活的，可以的话，请考虑先自己排一遍，理解和体验过副本的机制和节奏之后再去尝试抄别人的轴。</p>
-<h4 id="Q25：压冰是什么？我应该学习吗？"><a href="#Q25：压冰是什么？我应该学习吗？" class="headerlink" title="Q25：压冰是什么？我应该学习吗？"></a><strong>Q25：压冰是什么？我应该学习吗？</strong></h4><p>压冰的全名应该是广义压冰，简单说是<del>尽量减少冰阶段，冰3和冰4的数量，以提高火阶段的火4浓度，</del>减少低威力技能以让整体循环威力提高的技巧。</p>
-<p>压冰通常只存在于低咏速配装下，高咏速的压冰是纯炫技，实战意义不大，但是很帅。</p>
-<p><strong>新手别学</strong>，能领悟到的去看看B站的压冰视频。我建议<strong>logs没打到95+，就先别惦记你那压冰</strong>，压不好只会让你变纯傻逼。压冰是个需要排雷轴的东西，高咏速压冰更难受。木桩压冰和实战压冰完全是两回事，因为实战还要匹配机制。</p>
-<h4 id="Q26：怎么压冰？"><a href="#Q26：怎么压冰？" class="headerlink" title="Q26：怎么压冰？"></a><strong>Q26：怎么压冰？</strong></h4><p>对这个东西我没什么研究如果说得有问题请指出↓↓↓</p>
-<p>压冰的全称应该是：保双、控雷、压冰。</p>
-<p>保双，指的是保证全局的双星灵数量，在低咏速下，黑魔法师的技能轴可以打得非常固定，可以通过控制跳蓝等手段，保证全局的双星灵数量稳定，打更多的双星灵意味着打更少的标准循环和单星灵，火4浓度更高，能获取更高的收益。</p>
-<p>控雷，指的是排好雷轴，不过分断雷、覆盖雷。</p>
-<p>压冰，指的是在保证双星灵和雷轴的前提下，尽可能地减少低威力的技能数</p>
-<p>修正：</p>
-<p>压冰的核心是减少低威力技能的数量，提高双星灵的浓度是“增”，而减少低威力技能的数量是“减”。</p>
-<p><img src="/.com//Aspose.Words.0fe056d1-801c-41b5-a95b-c3bab33832eb.012.PNG"></p>
-<h4 id="Q27：我看有0冰轴，那个厉害吗？压冰压得多就一定是最好的吗？"><a href="#Q27：我看有0冰轴，那个厉害吗？压冰压得多就一定是最好的吗？" class="headerlink" title="Q27：我看有0冰轴，那个厉害吗？压冰压得多就一定是最好的吗？"></a><strong>Q27：我看有0冰轴，那个厉害吗？压冰压得多就一定是最好的吗？</strong></h4><p>老阿姨的那个0冰轴是<strong>纯炫技，不要学</strong>。</p>
-<p>无脑压冰不一定打得高，最优解相关内容请参照窗佬的专栏，此处应有超链接但是我懒得做。</p>
-<p>压冰，必须是广义压冰。</p>
-<p>整体而言，最优解通常不是0冰轴。</p>
-<h4 id="Q28：随机轴能打么？"><a href="#Q28：随机轴能打么？" class="headerlink" title="Q28：随机轴能打么？"></a><strong>Q28：随机轴能打么？</strong></h4><p>能。</p>
-<h1 id="部分特殊处理问题"><a href="#部分特殊处理问题" class="headerlink" title="部分特殊处理问题"></a><strong>部分特殊处理问题</strong></h1><h4 id="Q1：为什么我看到有人打火2？"><a href="#Q1：为什么我看到有人打火2？" class="headerlink" title="Q1：为什么我看到有人打火2？"></a><strong>Q1：为什么我看到有人打火2？</strong></h4><p>首先你要知道长读条的火2比火3读条时间短0.5s左右。</p>
-<p>详情请参见<a href="https://www.bilibili.com/video/av213043282">【【6.0黑魔研究】单体循环的f2替换与时间观测点】</a></p>
-<p>在6.0版本中，黑魔的f2升级为【高烈炎】后，在长读条状态下，有112（140*0.8）威力和3.1s的咏唱时间。 而黑魔的f3【爆炎】在长读条状态下有208（260*0.8）威力和3.6s的咏唱时间。</p>
-<p>太长不看可以大致总结为以下两点：</p>
-<p>1.读条火2可以调整跳蓝，能让跳蓝时间提前0.5s左右。</p>
-<p>2.读条火2比读条火3时间短0.5s，如果一个轴里正好差这0.5s可以让你多塞一个技能的话，显然打火2是赚的。</p>
-<p>所以是不是用读条火2来替代长单3、长单4里的长读条火3，取决于你自己的跳蓝和想法。当然，如果你要打瞬单，那肯定是打瞬发火3的。</p>
-<h4 id="Q2：什么时候打火2？"><a href="#Q2：什么时候打火2？" class="headerlink" title="Q2：什么时候打火2？"></a><strong>Q2：什么时候打火2？</strong></h4><p>用火2在单星灵中取代长读条的火3。</p>
-<p>每个火2能使你的跳蓝时间提前0.5s左右，长读条火3不会对你的跳蓝时间造成什么影响，但是火2会。</p>
-<p>因此在无火苗要打长读条单星灵的情况下，如果你的跳蓝时间要调整，就打长读条火2，不需要调整就打长读条&#x2F;瞬发火3。 </p>
-<p>因为即便你开局的跳蓝即便很理想，打到后面，偏差一点一点积累下来，还是会有所改变的，比如滑步丢那0.x秒gcd，或者是高咏速下的半咏唱单插卡gcd，黑魔纹双插卡gcd，各种意外和失误累积起来就会导致跳蓝时间偏差。 </p>
-<h4 id="Q3：什么时候跳蓝时间需要调整？"><a href="#Q3：什么时候跳蓝时间需要调整？" class="headerlink" title="Q3：什么时候跳蓝时间需要调整？"></a><strong>Q3：什么时候跳蓝时间需要调整？</strong></h4><p>如果你想打无火苗的双星灵，但是进冰后跳蓝时间正好卡在悖论前（导致无法获得第一跳的4700蓝），或者进冰后没跳蓝，打完悖论后还是半天不跳蓝的那种极端恶心情况。</p>
-<h4 id="Q4：黑魔有没有对齐团辅的必要？"><a href="#Q4：黑魔有没有对齐团辅的必要？" class="headerlink" title="Q4：黑魔有没有对齐团辅的必要？"></a><strong>Q4：黑魔有没有对齐团辅的必要？</strong></h4><p>有，但是不炒股的话通常可以不强求。我反正是纯纯自嗨，120s黑魔纹天然对齐大团辅，但是在团辅期间多砸几个异言这件事我的水平太菜只能说不能保证做到。<del>黑魔输出平滑全程爆发≈没有爆发期。</del></p>
-<p>此外，经过讨论，评价为，黑魔纹使黑魔对齐团辅这件事变得尴尬，因此不对齐团辅其实是比较理直气壮的。</p>
-<p>将双星灵视为黑魔的爆发期，单星灵&#x2F;标准循环视为黑魔的攒资源期。</p>
-<p>我们又可以得知，由于gcd加速的特性，黑魔纹的存在会使得我们不能打双星灵，因为会消耗更多的瞬发，而且有可能跳不出来蓝。而黑魔纹中综合攒资源等等的各方面，相对最高收益的循环是长单5。</p>
-<p>但黑魔纹对齐120s的团辅期，也就是在黑魔纹中，我们不能打爆发，只能攒资源，这意味着黑魔对齐团辅的能力实际上非常差。因此，对齐120s的爆发对黑魔来说其实是很困难的，做好你的自嗨就行了。</p>
-<h4 id="Q5：要不要卡着gcd给减伤（昏乱-魔罩）？"><a href="#Q5：要不要卡着gcd给减伤（昏乱-魔罩）？" class="headerlink" title="Q5：要不要卡着gcd给减伤（昏乱&#x2F;魔罩）？"></a><strong>Q5：要不要卡着gcd给减伤（昏乱&#x2F;魔罩）？</strong></h4><p>首先，尽量不要卡gcd给东西，原因前面我说过。有资源的情况下，尽量还是打一个瞬发来制造能力技窗口，如果错过了或者迫不得已，可以卡着给。</p>
-<p>开荒期：给，求稳，下次最好排个瞬发，避免卡gcd给。</p>
-<p>伐木期：缺你这个减伤就会死人（你死或者队友死）那你就给，没有就不给。当然，如果你有瞬发窗口可以给，那肯定是要给的，咕减伤罪大恶极。</p>
-<h4 id="Q6：回蓝监控有必要安装吗？用哪个？我看有的花里胡哨的监控要用吗？"><a href="#Q6：回蓝监控有必要安装吗？用哪个？我看有的花里胡哨的监控要用吗？" class="headerlink" title="Q6：回蓝监控有必要安装吗？用哪个？我看有的花里胡哨的监控要用吗？"></a><strong>Q6：回蓝监控有必要安装吗？用哪个？我看有的花里胡哨的监控要用吗？</strong></h4><p>爱装不装，只是让你对回蓝时间有个逼数。</p>
-<p>推荐用版头帖子里souma的那个悬浮窗监控，或者如果souma的那个部分网络打不开，就用我修的这个souma的回蓝监控高级触发器版：<a href="https://bbs.nga.cn/read.php?tid=32066497">https://bbs.nga.cn/read.php?tid=32066497</a></p>
-<p>花里胡哨的监控指窗佬和祈祷的未来观测监控，新手不推荐用，会头晕。你会玩会看那就用。</p>
-<h4 id="Q7：70级绝本里黑魔的魔泉怎么插？"><a href="#Q7：70级绝本里黑魔的魔泉怎么插？" class="headerlink" title="Q7：70级绝本里黑魔的魔泉怎么插？"></a><strong>Q7：70级绝本里黑魔的魔泉怎么插？</strong></h4><p>from 我亲爱的导师：硬插。</p>
-<h4 id="Q8：70级绝本转场结束，星灵后应该怎么恢复状态？"><a href="#Q8：70级绝本转场结束，星灵后应该怎么恢复状态？" class="headerlink" title="Q8：70级绝本转场结束，星灵后应该怎么恢复状态？"></a><strong>Q8：70级绝本转场结束，星灵后应该怎么恢复状态？</strong></h4><p>星灵进火，打两个火1。</p>
-<p>长读条火3会很不舒服，打两个火1还有火苗期望。我导师教的，有意见找他。</p>
-<h1 id="配装问题"><a href="#配装问题" class="headerlink" title="配装问题"></a><strong>配装问题</strong></h1><h4 id="Q：我用咏速套打得低是正常的吗？"><a href="#Q：我用咏速套打得低是正常的吗？" class="headerlink" title="Q：我用咏速套打得低是正常的吗？"></a><strong>Q：我用咏速套打得低是正常的吗？</strong></h4><p>人的问题不要怪装备，谢谢，咏速不影响打粉。</p>
-<p>咏速上限比暴击低，不炒金的话无所谓，咏速完全不影响95+，只是打更高的上限伤害，期望不如暴击套，<del>毕竟你都有这么高的咏速能打更多技能了，还追求你那个暴击是不是有点过分。</del></p>
-<p><strong>如果你想进阶，或者有之后进阶的打算，请选择低咏速。</strong></p>
-<h4 id="Q：什么咏速最厉害？"><a href="#Q：什么咏速最厉害？" class="headerlink" title="Q：什么咏速最厉害？"></a><strong>Q：什么咏速最厉害？</strong></h4><p><strong>别问什么咏速好什么咏速坏，咏速不影响你99，不炒股什么咏速都行，机师永远＞咏速！——颜宝</strong></p>
-<p><strong>一个咏速，再牛逼也不能让你那灰绿手法换个咏速就能上紫橙粉。</strong></p>
-<p>就是理论上咏速可以99，但是现在你说拿个咏速套打99那确实不现实，因为上面都是暴击。</p>
-<p>暴击炒比你咏速炒在赌博方面简单点，毕竟属性在那。你说一万把无上限把取最高其实还是咏速上限最高，你全直暴，咏速技能还比你暴击多呢，但是有屁用，你咏速打一千把出一把这个成绩，暴击可能十把就有了。</p>
-<h4 id="Q：为什么推荐新人打高咏速？我就不能直接打暴击吗？"><a href="#Q：为什么推荐新人打高咏速？我就不能直接打暴击吗？" class="headerlink" title="Q：为什么推荐新人打高咏速？我就不能直接打暴击吗？"></a><strong>Q：为什么推荐新人打高咏速？我就不能直接打暴击吗？</strong></h4><p><strong>如果你想进阶，或者有之后进阶的打算，请选择低咏速。</strong></p>
-<p>因为咏速套容错高，好上手。</p>
-<p>黑魔这种读条职业可以说是咏速越高容错率越高，高的咏速容许你多读一个火4，或者是因为跑位稍微空转一些gcd，滑步断一些读条也不至于断天语，尽管这些都是你该避免的。</p>
-<p>直接打暴击也可以，低咏的代价是高上限和更便秘的读条，看你自己，新人上手就打低咏也不是不可以，你能适应就打呗。</p>
-<h4 id="Q：这版本石头怎么打？"><a href="#Q：这版本石头怎么打？" class="headerlink" title="Q：这版本石头怎么打？"></a><strong>Q：这版本石头怎么打？</strong></h4><p>咏&gt;信&gt;直，但是小心信念陷阱（指信念真的很刮痧很刮痧）</p>
-<h4 id="Q：是不是1877是最好的咏速？可以平地4火4！"><a href="#Q：是不是1877是最好的咏速？可以平地4火4！" class="headerlink" title="Q：是不是1877是最好的咏速？可以平地4火4！"></a><strong>Q：是不是1877是最好的咏速？可以平地4火4！</strong></h4><p>不是。平地4火4还取决于你的网络延迟和服务器状况，以及有没有滑步丢gcd。</p>
-<p><strong>补充：（来自版头黑魔攻略中配装推荐一栏）</strong></p>
-<p><strong>1877咏速以打平地4火4到底重不重要的回答 by 号被连导三次</strong></p>
-<p>双星灵循环的平均pps本身已经和火4这一个技能的pps十分接近了，你双星灵里面打1234个火4(以下简称双1234)对pps的提升其实很小，用非常简化的算法可以看作是一轮双星灵里面所有时间都在打火4这一个技能。</p>
-<p>从技能数量的角度来说，举个例子你用1877咏速打长双3和长双4做对比，将近每分钟只能带来一个火4的区别，如果时间轴(比如三分多钟的轴)能让你长双3刚好是火打完绝望收尾，也就代表长双4刚好打完冰阶段收尾进火，那么其实长双4带来的火4数量基本都被冰阶段进火这个收尾给亏没了。</p>
-<p>同时因为双4因为耗蓝必须要用到激情火出的火苗，考虑到激情雷和激情火打法下在天命局暴击分布上带来的区别，进一步削弱了高咏速的长双4打法带来的收益。</p>
-<p>如果是更进阶一点的手法，比如利用瞬发火3连续打出好几轮双星灵，那么因为瞬发火3打出的双星灵最多只够3个火4的蓝量，在这些轮里面的1877咏速并不能吃到这个4火4的福利。</p>
-<p>另外高咏速相比低咏速还有两个非常细微的亏损，一个是冰状态下少跳一次蓝的概率，另一个是读条税。</p>
-<p>结合上面几点基本上就是高咏速下双4并没有可观收益的原因了。</p>
-<p><em><strong>省流版：1877有用，但没有那么有用。</strong></em></p>
-<h4 id="Q：为什么我1877读不出来4火4绝望，断天语啊？"><a href="#Q：为什么我1877读不出来4火4绝望，断天语啊？" class="headerlink" title="Q：为什么我1877读不出来4火4绝望，断天语啊？"></a><strong>Q：为什么我1877读不出来4火4绝望，断天语啊？</strong></h4><p>因为你丢包了&#x2F;网络延迟高了&#x2F;丢gcd了。理论值1818就可以做到平地4火4，实际上1877比较稳定，部分网络环境还需要更高。</p>
-<h4 id="Q：我选什么咏速比较好？"><a href="#Q：我选什么咏速比较好？" class="headerlink" title="Q：我选什么咏速比较好？"></a><strong>Q：我选什么咏速比较好？</strong></h4><p>主流bis四个咏速，884&#x2F;1351&#x2F;2171&#x2F;2315，暴击从高到低。当然也有1k9的那些我不做评价，建议以版头推荐的配装为准。</p>
-<p>1k3和884是同样的暴击率，差别只是直击率。</p>
-<p>补充：1352档分为1352和1297，1297的期望和收益更高，具体配装我不清楚请问群友因为我是884。</p>
-<p>我的建议是，黑魔就要做二极管，要么最高要么最低，加入884，小心2315，为什么说2315因为他真的很恶心自己打打就知道了，纯个人观点，你杠你对。</p>
-<p><strong>如果你想进阶，或者有之后进阶的打算，请选择低咏速。</strong></p>
-<p><strong>高咏双星灵，谁打谁傻逼——<em>匿名咏爷</em></strong></p>
-<p><strong>补充：（来自版头黑魔攻略中配装推荐一栏）</strong></p>
-<p>几个关键阈值：</p>
-<p>能双星灵+3瞬发火4，打出4火4的最低咏速要求是766，例如火苗-三连-火4-火4-火4-火4-绝望</p>
-<p>3瞬发 766</p>
-<p>2瞬发 1117</p>
-<p>1瞬发 1511</p>
-<p>0瞬发 1818</p>
-<p>以上是木桩环境下低延迟的测试结果，实战如果因为滑步、延迟等原因丢了任何一点gcd都会导致最后的绝望读不出来。</p>
-<h1 id="零式万魔殿P1S-P4S问题"><a href="#零式万魔殿P1S-P4S问题" class="headerlink" title="零式万魔殿P1S-P4S问题"></a><strong>零式万魔殿P1S-P4S问题</strong></h1><h2 id="P1S"><a href="#P1S" class="headerlink" title="P1S"></a><strong>P1S</strong></h2><h4 id="Q：P1S黑魔纹怎么安排？能给个参考吗？"><a href="#Q：P1S黑魔纹怎么安排？能给个参考吗？" class="headerlink" title="Q：P1S黑魔纹怎么安排？能给个参考吗？"></a><strong>Q：P1S黑魔纹怎么安排？能给个参考吗？</strong></h4><p><strong>本人自用轴，仅供参考，咏速2171~2315</strong></p>
-<p>第一个：起手-4s提前下，无论d1234都应该-4s下黑魔纹，这样可以保证吃满这个黑魔纹再去结咒魔锁换位，并且时间很充裕。</p>
-<p>第二个：第一次冰火侵蚀（温度计）时放，放在四个格子交界处，黑色即死区的中心，这样黑魔纹可以覆盖四个地砖。</p>
-<p>第三个：光炎监狱第二轮左右刀+钢铁月环的时候下，建议下在四个格子中间，方便躲避限时魔锁，结束后马上就是四连结咒魔锁。</p>
-<p>第四个：第二次冰火侵蚀（温度计）后回到南边再放也可以，去一个能吃到群奶的地方。</p>
-<p>第五个：大概是第二次光炎监狱的收尾处，随便下，我就没见过几次这个接近狂暴的地方。</p>
-<h4 id="Q：黑魔应该打什么位置？打D4一定是亏的吗？"><a href="#Q：黑魔应该打什么位置？打D4一定是亏的吗？" class="headerlink" title="Q：黑魔应该打什么位置？打D4一定是亏的吗？"></a><strong>Q：黑魔应该打什么位置？打D4一定是亏的吗？</strong></h4><p>d1d2一定不亏，d4概率不亏，d3一定亏。</p>
-<p>d4如果上下异色，可以不去南边换色吃满黑魔纹，炒股黑魔建议打近战位。</p>
-<p>如果你是被迫d4的黑魔，可以考虑卡判定时间以太步南边格子的队友再魔纹步回去，有一定风险。</p>
-<h2 id="P2S"><a href="#P2S" class="headerlink" title="P2S"></a><strong>P2S</strong></h2><h4 id="Q：P2S黑魔纹怎么安排？能给个参考吗？"><a href="#Q：P2S黑魔纹怎么安排？能给个参考吗？" class="headerlink" title="Q：P2S黑魔纹怎么安排？能给个参考吗？"></a><strong>Q：P2S黑魔纹怎么安排？能给个参考吗？</strong></h4><p><strong>本人自用轴，仅供参考，咏速2171~2315</strong></p>
-<p>第一个：起手放，提前在4s的时候下也行</p>
-<p>第二个：灵水弹分摊击退后马上下（可以延后到多重刻印点名瀑布结束后出去再放，但是接下来吃不满而且要一冲很恶心）</p>
-<p>第三个：麻将后到污水台子对面台子上，立马下</p>
-<p>第四个：三连黄圈结束后，分散的时候下</p>
-<p>第五个：一般三冲出不来……三冲能出来就随缘呗（</p>
-<h4 id="Q：对冲丢gcd怎么办？"><a href="#Q：对冲丢gcd怎么办？" class="headerlink" title="Q：对冲丢gcd怎么办？"></a><strong>Q：对冲丢gcd怎么办？</strong></h4><p>摆烂，最理想的情况即便打出技能后马上被冲，也会丢失一部分。</p>
-<h2 id="P3S"><a href="#P3S" class="headerlink" title="P3S"></a><strong>P3S</strong></h2><h4 id="Q：P3S黑魔纹怎么安排？能给个参考吗？"><a href="#Q：P3S黑魔纹怎么安排？能给个参考吗？" class="headerlink" title="Q：P3S黑魔纹怎么安排？能给个参考吗？"></a><strong>Q：P3S黑魔纹怎么安排？能给个参考吗？</strong></h4><p>第一个：起手去场中放，除非MT北拉否则野队一律不考虑提前放</p>
-<p>第二个：十字地火跑完三连黄圈后贴着地火放（吃不满）</p>
-<p>第三个：大小鸟结束，第一次蛀牙前，或者延后到放完蛀牙后都可以</p>
-<p>第四个：灵泉拉线结束后，火龙卷前，拉线结束马上去c（或者a，看北拉南拉）直接下就行，可以吃到火龙卷披萨出现</p>
-<p>第五个：死超前就转好，可以延后到蛀牙点名出现的时候</p>
-<h4 id="Q：第一次十字地火黑魔纹怎么放？"><a href="#Q：第一次十字地火黑魔纹怎么放？" class="headerlink" title="Q：第一次十字地火黑魔纹怎么放？"></a><strong>Q：第一次十字地火黑魔纹怎么放？</strong></h4><p>不管你怎么放都吃不满，建议跑完三连黄圈之后放在D点方向的场边，紧贴十字火，然后在黑魔纹里移动躲左右刀，这样由于你在场边T也很好接线，不存在接不到的问题。</p>
-<p>因为紧接着boss就要上天，跑完三连黄圈放的黑魔纹一定是吃不满的，记得在大圈读条判定前以太步回场中，免得点大圈的时候点到自己身上。</p>
-<p>有一种炒股打法是，黑魔纹放在黄圈里让T无敌吃黄圈拉BOSS面向，但是这种打法非常特化，野队是不能复刻的，懂我意思了吗，<strong>老老实实跑。</strong></p>
-<h4 id="Q：暗炎可以打秽浊脏双目标吗？"><a href="#Q：暗炎可以打秽浊脏双目标吗？" class="headerlink" title="Q：暗炎可以打秽浊脏双目标吗？"></a><strong>Q：暗炎可以打秽浊脏双目标吗？</strong></h4><p>可以，不建议你打。</p>
-<p>要对着暗炎打秽浊，因为对着BOSS打，秽浊会判定在BOSS的目标圈里，脏不到双目标。</p>
-<h4 id="Q：大鸟阶段怎么安排资源？"><a href="#Q：大鸟阶段怎么安排资源？" class="headerlink" title="Q：大鸟阶段怎么安排资源？"></a><strong>Q：大鸟阶段怎么安排资源？</strong></h4><p>双dot蹭雷云，黑魔纹延后，触了雷云给群雷，可以打一个秽浊。</p>
-<p>我个人是不给三连把三连延后到P3的，有觉得不舒服的也可以交三连，貌似这里延后没有影响不会少开一个。</p>
-<h4 id="Q：大鸟结束灵极魂转不满三个冰针怎么办？"><a href="#Q：大鸟结束灵极魂转不满三个冰针怎么办？" class="headerlink" title="Q：大鸟结束灵极魂转不满三个冰针怎么办？"></a><strong>Q：大鸟结束灵极魂转不满三个冰针怎么办？</strong></h4><p>开荒期间鸟都打不掉的不考虑资源问题。如果你们是会狂暴的队伍就无无视这个东西，打掉最优先。</p>
-<p>看最后一只或两只鸟快没血了，可以进冰开始摆烂冰4，进火打一个或者两个火4也是可以的，转场时间正好够你转两下（其实是1.5下，所以还是冰收尾吧）。</p>
-<p>可以在大鸟阶段快结束的时候多读几个火1触火苗，大鸟死了之后开激情。</p>
-<p>而且小怪阶段不计入logs，所以你摸鱼也没人发现！</p>
-<h2 id="P4S-门神"><a href="#P4S-门神" class="headerlink" title="P4S-门神"></a><strong>P4S-门神</strong></h2><h4 id="Q：第二个黑魔纹对齐地板该怎么放？"><a href="#Q：第二个黑魔纹对齐地板该怎么放？" class="headerlink" title="Q：第二个黑魔纹对齐地板该怎么放？"></a><strong>Q：第二个黑魔纹对齐地板该怎么放？</strong></h4><p>第一轮剧场的第二次地板，在剑和披风出现后，去对应的场边到位直接下。</p>
-<p>比如你是D4，点的击退+分散，那就直接去右边场边角落下黑魔纹，但是建议黑魔纹尽可能地偏场中一些，避免吃不到群奶暴毙。</p>
-<p>这里无论是分摊还是分散都建议开一个魔罩顶着，然后如果没吃到群奶，最好在后续AOE中挤出一个瞬发给昏乱，不然可能会直接被炸死。</p>
-<h2 id="P4S-本体"><a href="#P4S-本体" class="headerlink" title="P4S-本体"></a><strong>P4S-本体</strong></h2><h4 id="Q：P4S黑魔纹怎么安排？能给个参考吗？"><a href="#Q：P4S黑魔纹怎么安排？能给个参考吗？" class="headerlink" title="Q：P4S黑魔纹怎么安排？能给个参考吗？"></a><strong>Q：P4S黑魔纹怎么安排？能给个参考吗？</strong></h4><p><strong>本人自用轴，仅供参考，咏速2171~2315</strong></p>
-<p>第一个：起手预读-4s提前下，避免后面二运略微延后（实际上是可以转得好的）</p>
-<p>第二个：二运结束回场中，究极脉冲之前下在boss脚底下，最理想的是覆盖左右半场，方便提前滑步过去，缩短之后要走的距离。</p>
-<p>第三个：延后到四运后两次拉线的时候（下和左），在A-B方向boss目标圈边缘下，吃到四运结束五运之前。</p>
-<p>第四个：六运拉线期间，建议在拉线buff出了之后决定什么时候下。如果是一二组，那么拉完线回去再下，三四组的话可以马上下，因为这里120s的大技能不能再转好一个，所以延后不会少使用次数。</p>
-<h4 id="Q：打d2还是d4？"><a href="#Q：打d2还是d4？" class="headerlink" title="Q：打d2还是d4？"></a><strong>Q：打d2还是d4？</strong></h4><p>我都打过，评价是差不多。在bw攻略下，d4可以更无脑地顺时针走，所以我打d4会觉得舒服一点。</p>
-<p>d2和d4的区别是：d2需要提前走过去引导大地摇动，d4需要引导超级跳。</p>
-<p>d2需要的瞬发更少，可以更快地结束引导阶段开始读条。（大地摇动+踩塔结束就可以走回去了）</p>
-<p>我觉得这次四层本体的d24区别不大，<del>我1234都能打，一个合格的黑魔应该完美补位！</del></p>
-<p>因为我个人在踩塔的时候有一个三连覆盖到魔泉的三连安排（即d4d），然后直接星灵进冰雷云异言打长单，所以对我来说打d2可能会更舒服（d4引导完超级跳之后还要离开）。</p>
-<h4 id="Q：四运黑魔纹要怎么放？延后还是场中对穿？"><a href="#Q：四运黑魔纹要怎么放？延后还是场中对穿？" class="headerlink" title="Q：四运黑魔纹要怎么放？延后还是场中对穿？"></a><strong>Q：四运黑魔纹要怎么放？延后还是场中对穿？</strong></h4><p>个人是延后，场中对穿的话要看地板花纹和点名，只有蓝线可以场中对穿，因为紫线一定得出去拉断，会少吃。</p>
-<p>我记得B站有教程，但是需要一定的练习和胆量，而且练习成本比较高，最好在征得队友同意的情况下练。</p>
-<h1 id="零式万魔殿P5S-P8S问题（待编辑）"><a href="#零式万魔殿P5S-P8S问题（待编辑）" class="headerlink" title="零式万魔殿P5S-P8S问题（待编辑）"></a><strong>零式万魔殿P5S-P8S问题（待编辑）</strong></h1><p>待施工，我是国服批，没办法国际服</p>
-<h1 id="幻想龙诗绝境战问题"><a href="#幻想龙诗绝境战问题" class="headerlink" title="幻想龙诗绝境战问题"></a><strong>幻想龙诗绝境战问题</strong></h1><p>集合一些群友的经验之谈。截止到修这版之前，我还没过本，随便写的。</p>
-<h4 id="Q：龙诗要选什么咏速？（6-1）"><a href="#Q：龙诗要选什么咏速？（6-1）" class="headerlink" title="Q：龙诗要选什么咏速？（6.1）"></a><strong>Q：龙诗要选什么咏速？（6.1）</strong></h4><p>随便，你开心就好，咏速没有限制，主要自己打得舒服，2315和884都能过本，没有什么过不了本之说。不会因为你高咏速就过不了本。</p>
-<h4 id="Q：龙诗有最优轴吗？（附884牛牛轴）"><a href="#Q：龙诗有最优轴吗？（附884牛牛轴）" class="headerlink" title="Q：龙诗有最优轴吗？（附884牛牛轴）"></a><strong>Q：龙诗有最优轴吗？（附884牛牛轴）</strong></h4><p>884有一个群友（引流：群号895534922）讨论的最优轴，这是详解：</p>
-<p>绝龙诗牛牛轴.pdf</p>
-<p>也可以直接阅读这个精简版：</p>
-<p>绝龙诗884D2黑魔P4.5适配莫古力攻略轴.docx</p>
-<p>其他咏速的轴可以自行摸索，此处不予讨论。</p>
-<h4 id="Q：龙诗打D2还是D4？"><a href="#Q：龙诗打D2还是D4？" class="headerlink" title="Q：龙诗打D2还是D4？"></a><strong>Q：龙诗打D2还是D4？</strong></h4><p>个人建议：能打D4就打D4，打不了再D2，因为D4在目前国服的攻略环境里属于是一个非常脑死亡的位置，几乎不需要任何换位，反观D2，各种机制里比D4忙得多。</p>
-<p>另外，双法还可能面对一部分输出压力，如果你的队友不是那么正常的话。</p>
-<h1 id="亚历山大绝境战问题"><a href="#亚历山大绝境战问题" class="headerlink" title="亚历山大绝境战问题"></a><strong>亚历山大绝境战问题</strong></h1><h4 id="Q：绝亚开荒，用咏速还是暴击？"><a href="#Q：绝亚开荒，用咏速还是暴击？" class="headerlink" title="Q：绝亚开荒，用咏速还是暴击？"></a><strong>Q：绝亚开荒，用咏速还是暴击？</strong></h4><p>想要舒服就用咏速，哪怕600的咏速bis同步下去也能吃满属性打得很舒服了。</p>
-<p>暴击套容易炸小怪，没别的缺点，后面打得挺爽的。</p>
-<h4 id="Q：现在（6-1）绝亚的bis是？"><a href="#Q：现在（6-1）绝亚的bis是？" class="headerlink" title="Q：现在（6.1）绝亚的bis是？"></a><strong>Q：现在（6.1）绝亚的bis是？</strong></h4><p>此处应有nga新版本绝亚配装贴，但是我懒得找。</p>
-<p>但我的建议是直接600同步+475义武，605同步也够你用。</p>
-<h4 id="Q：有没有小怪推荐打法？怎么才能不炸小怪？"><a href="#Q：有没有小怪推荐打法？怎么才能不炸小怪？" class="headerlink" title="Q：有没有小怪推荐打法？怎么才能不炸小怪？"></a><strong>Q：有没有小怪推荐打法？怎么才能不炸小怪？</strong></h4><p>个人打法：火苗441，看着修。</p>
-<p>请尽可能不要用火4、绝望、异言等高威力技能修血，你会后悔的。</p>
-<h4 id="Q：绝亚怎么打循环？还能打星灵和短循环吗？"><a href="#Q：绝亚怎么打循环？还能打星灵和短循环吗？" class="headerlink" title="Q：绝亚怎么打循环？还能打星灵和短循环吗？"></a><strong>Q：绝亚怎么打循环？还能打星灵和短循环吗？</strong></h4><p>开荒：标准到底。</p>
-<p>绝亚早就不缺输出了，标准也没有你们想得那么不堪，标准足够，非常舒服。</p>
-<p>星灵循环和短循环的问题已经有了定论，在80级绝本中，星灵循环和短循环的收益仍然存在，但是由于削了绝望的威力，使得他们的相对收益并没有80级那会儿那么高了。</p>
-<p><strong>在开荒中请把它们移出你的循环序列，不要考虑打短了，收益不高，容易出事。</strong></p>
-]]></content>
-      <tags>
-        <tag>黑魔法师</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>黑魔常见问题FAQ</title>
-    <url>/posts/2023/10001/</url>
-    <content><![CDATA[<h3 id="黑魔常见小问题Q-A"><a href="#黑魔常见小问题Q-A" class="headerlink" title="黑魔常见小问题Q&amp;A"></a>黑魔常见小问题Q&amp;A</h3><p>此文档暂停更新，作者不为文档中的一切言论负责。</p>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/posts/2023/10001/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Shiroya">
+      <meta itemprop="description" content="一个普通黑魔">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="瓶装黑魔纹">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          黑魔常见问题FAQ
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-10-28 12:50:36 / 修改时间：12:57:35" itemprop="dateCreated datePublished" datetime="2023-10-28T12:50:36+08:00">2023-10-28</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h3 id="黑魔常见小问题Q-A"><a href="#黑魔常见小问题Q-A" class="headerlink" title="黑魔常见小问题Q&amp;A"></a>黑魔常见小问题Q&amp;A</h3><p>此文档暂停更新，作者不为文档中的一切言论负责。</p>
 <p>高贵的黑魔准备回来修订了</p>
 <p>6月2日 存在部分待修正part 未修改</p>
 <p>2023年9月4日 6.4版本将迎来大修正但是我还在鸽</p>
@@ -630,13 +246,13 @@
 <p>2022年10月21日	为问题添加了编号方便查阅；增添了一部分问题，主要是针对星灵循环和排轴的；为深造篇植入大量广告和解释（小窗快给我打钱）；修改了一部分问题的格式；修改了一部分问题以及回答；增加了排轴网站。</p>
 <p>2022年9月29日	叠了甲；对一部分问题进行了补充；追加了5S-8S、绝本相关问题的栏目（待编辑状态）；上传补充了【循环收益表】、【牛牛轴】等文件；修订了一部分格式。</p>
 <p>挖了个新坑：部分常用链接、视频整理（未完工）引用链接</p>
-<h1 id="常用链接"><a href="#常用链接" class="headerlink" title="常用链接"></a>常用链接</h1><p>【警察网】<a href="https://xivanalysis/.com/">https://xivanalysis\.com/</a></p>
-<p>【logs网站使用指南】<a href="https://bbs/.nga/.cn/read/.php?tid=16465994">https://bbs\.nga\.cn/read\.php?tid=16465994</a></p>
-<p>【6.0黑魔攻略（版头，祈祷版）】<a href="https://bbs/.nga/.cn/read/.php?tid=30055418">https://bbs\.nga\.cn/read\.php?tid=30055418</a></p>
-<p>【6.0黑魔入门攻略】<a href="https://bbs/.nga/.cn/read/.php?tid=30617374">https://bbs\.nga\.cn/read\.php?tid=30617374</a></p>
-<p>【6.0黑魔进阶攻略（不是进阶篇）】<a href="https://bbs/.nga/.cn/read/.php?tid=30460203">https://bbs\.nga\.cn/read\.php?tid=30460203</a></p>
-<p>【6.0黑魔咏速阈值表】<a href="https://bbs/.nga/.cn/read/.php?tid=29774994">https://bbs\.nga\.cn/read\.php?tid=29774994</a></p>
-<p>【常用排轴网站】<a href="https://www/.ffxivrotations/.com/">https://www\.ffxivrotations\.com/</a></p>
+<h1 id="常用链接"><a href="#常用链接" class="headerlink" title="常用链接"></a>常用链接</h1><p>【警察网】<a target="_blank" rel="noopener" href="https://xivanalysis/.com/">https://xivanalysis\.com/</a></p>
+<p>【logs网站使用指南】<a target="_blank" rel="noopener" href="https://bbs/.nga/.cn/read/.php?tid=16465994">https://bbs\.nga\.cn/read\.php?tid=16465994</a></p>
+<p>【6.0黑魔攻略（版头，祈祷版）】<a target="_blank" rel="noopener" href="https://bbs/.nga/.cn/read/.php?tid=30055418">https://bbs\.nga\.cn/read\.php?tid=30055418</a></p>
+<p>【6.0黑魔入门攻略】<a target="_blank" rel="noopener" href="https://bbs/.nga/.cn/read/.php?tid=30617374">https://bbs\.nga\.cn/read\.php?tid=30617374</a></p>
+<p>【6.0黑魔进阶攻略（不是进阶篇）】<a target="_blank" rel="noopener" href="https://bbs/.nga/.cn/read/.php?tid=30460203">https://bbs\.nga\.cn/read\.php?tid=30460203</a></p>
+<p>【6.0黑魔咏速阈值表】<a target="_blank" rel="noopener" href="https://bbs/.nga/.cn/read/.php?tid=29774994">https://bbs\.nga\.cn/read\.php?tid=29774994</a></p>
+<p>【常用排轴网站】<a target="_blank" rel="noopener" href="https://www/.ffxivrotations/.com/">https://www\.ffxivrotations\.com/</a></p>
 <p>【常用配装合集】6.0晓月之终途黑魔法师配装合集</p>
 <p>【6.0黑魔法师职业攻略（基础篇）】</p>
 <p>【6.0黑魔法师职业攻略（进阶篇）】</p>
@@ -646,7 +262,7 @@
 <p>【进阶跳蓝监控：未来观测】</p>
 <p>【6.0黑魔法师循环数据与评价，以更全面的视角审视各种循环与黑魔输出体系之间的联系】</p>
 <p>【循环收益表】6.08黑魔循环收益表.xlsx</p>
-<p>【配装阈值表】<a href="https://nga/.178/.com/read/.php?tid=29718475">https://nga\.178\.com/read\.php?tid=29718475</a></p>
+<p>【配装阈值表】<a target="_blank" rel="noopener" href="https://nga/.178/.com/read/.php?tid=29718475">https://nga\.178\.com/read\.php?tid=29718475</a></p>
 <h4 id="配套视频讲解"><a href="#配套视频讲解" class="headerlink" title="配套视频讲解"></a>配套视频讲解</h4><p>最近做的系列，随性讲解，在这边也贴一下，（应该）会持续更新。</p>
 <p>【01】新手必看向：为什么我伤害打不高？GCD利用率上不去？能力技插入问题扒logs轴讲解</p>
 <p>【02】为什么不建议新手打星灵循环只建议标准？什么时候可以开始打进阶星灵循环？四种星灵循环及跳蓝问题简单讲解！</p>
@@ -1040,7 +656,7 @@
 <p>开荒期：给，求稳，下次最好排个瞬发，避免卡gcd给。</p>
 <p>伐木期：缺你这个减伤就会死人（你死或者队友死）那你就给，没有就不给。当然，如果你有瞬发窗口可以给，那肯定是要给的，咕减伤罪大恶极。</p>
 <h4 id="Q6：回蓝监控有必要安装吗？用哪个？我看有的花里胡哨的监控要用吗？"><a href="#Q6：回蓝监控有必要安装吗？用哪个？我看有的花里胡哨的监控要用吗？" class="headerlink" title="Q6：回蓝监控有必要安装吗？用哪个？我看有的花里胡哨的监控要用吗？"></a>Q6：回蓝监控有必要安装吗？用哪个？我看有的花里胡哨的监控要用吗？</h4><p>爱装不装，只是让你对回蓝时间有个逼数。</p>
-<p>推荐用版头帖子里souma的那个悬浮窗监控，或者如果souma的那个部分网络打不开，就用我修的这个souma的回蓝监控高级触发器版：<a href="https://bbs/.nga/.cn/read/.php?tid=32066497">https://bbs\.nga\.cn/read\.php?tid=32066497</a></p>
+<p>推荐用版头帖子里souma的那个悬浮窗监控，或者如果souma的那个部分网络打不开，就用我修的这个souma的回蓝监控高级触发器版：<a target="_blank" rel="noopener" href="https://bbs/.nga/.cn/read/.php?tid=32066497">https://bbs\.nga\.cn/read\.php?tid=32066497</a></p>
 <p>花里胡哨的监控指窗佬和祈祷的未来观测监控，新手不推荐用，会头晕。你会玩会看那就用。</p>
 <h4 id="Q7：70级绝本里黑魔的魔泉怎么插？"><a href="#Q7：70级绝本里黑魔的魔泉怎么插？" class="headerlink" title="Q7：70级绝本里黑魔的魔泉怎么插？"></a>Q7：70级绝本里黑魔的魔泉怎么插？</h4><p>from 我亲爱的导师：硬插。</p>
 <h4 id="Q8：70级绝本转场结束，星灵后应该怎么恢复状态？"><a href="#Q8：70级绝本转场结束，星灵后应该怎么恢复状态？" class="headerlink" title="Q8：70级绝本转场结束，星灵后应该怎么恢复状态？"></a>Q8：70级绝本转场结束，星灵后应该怎么恢复状态？</h4><p>星灵进火，打两个火1。</p>
@@ -1149,11 +765,199 @@
 <p>绝亚早就不缺输出了，标准也没有你们想得那么不堪，标准足够，非常舒服。</p>
 <p>星灵循环和短循环的问题已经有了定论，在80级绝本中，星灵循环和短循环的收益仍然存在，但是由于削了绝望的威力，使得他们的相对收益并没有80级那会儿那么高了。</p>
 <p><strong>在开荒中请把它们移出你的循环序列，不要考虑打短了，收益不高，容易出事。</strong></p>
-]]></content>
-      <tags>
-        <tag>黑魔法师</tag>
-        <tag>教学</tag>
-        <tag>PVE</tag>
-      </tags>
-  </entry>
-</search>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E9%BB%91%E9%AD%94%E6%B3%95%E5%B8%88/" rel="tag"># 黑魔法师</a>
+              <a href="/tags/%E6%95%99%E5%AD%A6/" rel="tag"># 教学</a>
+              <a href="/tags/PVE/" rel="tag"># PVE</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/2023/10000/" rel="prev" title="黑魔常见问题FAQ">
+      <i class="fa fa-chevron-left"></i> 黑魔常见问题FAQ
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BB%91%E9%AD%94%E5%B8%B8%E8%A7%81%E5%B0%8F%E9%97%AE%E9%A2%98Q-A"><span class="nav-text">黑魔常见小问题Q&amp;A</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5"><span class="nav-text">常用链接</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%85%8D%E5%A5%97%E8%A7%86%E9%A2%91%E8%AE%B2%E8%A7%A3"><span class="nav-text">配套视频讲解</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%86%99%E5%9C%A8%E5%BC%80%E5%A4%B4"><span class="nav-text">写在开头</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5"><span class="nav-text">关于常用链接</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AD%A6%E5%AF%9F%E7%BD%91%EF%BC%88xivanalysis%EF%BC%89"><span class="nav-text">警察网（xivanalysis）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#FFLOGS"><span class="nav-text">FFLOGS</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%87%92%E5%BE%97%E5%88%86%E7%B1%BB%E7%9A%84%E6%9D%82%E8%B0%88%E6%8F%90%E9%86%92"><span class="nav-text">懒得分类的杂谈提醒</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E6%9C%89%E7%81%AB%E8%8B%97%E7%9A%84%E6%97%B6%E5%80%99%E6%89%93%E5%8F%8C%E6%98%9F%E7%81%B5%E4%B8%8D%E7%94%A8%E5%BC%80%E9%86%92%E6%A2%A6%E3%80%82"><span class="nav-text">1.有火苗的时候打双星灵不用开醒梦。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E5%9C%A8%E6%89%93%E5%8F%8C%E6%98%9F%E7%81%B5%E7%9A%84%E9%80%94%E4%B8%AD%E5%8D%A1GCD%E7%A1%AC%E6%8F%92%E4%BA%86%E5%A4%AA%E5%A4%9A%E6%8A%80%E8%83%BD%EF%BC%8C%E5%8F%AA%E4%BC%9A%E8%AE%A9%E5%8F%8C%E6%98%9F%E7%81%B5%E6%9C%AC%E5%B0%B1%E4%B8%8D%E5%A4%9A%E7%9A%84%E6%94%B6%E7%9B%8A%E9%9B%AA%E4%B8%8A%E5%8A%A0%E9%9C%9C%E3%80%82"><span class="nav-text">2.在打双星灵的途中卡GCD硬插了太多技能，只会让双星灵本就不多的收益雪上加霜。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E8%83%BD%E5%8A%9B%E6%8A%80%E4%B8%8D%E8%A6%81%E5%92%8C%E7%88%86%E5%8F%91%E8%8D%AF%E4%B8%80%E8%B5%B7%E6%8F%92%EF%BC%8C%E8%A6%81%E6%88%91%E5%81%9A%E4%B8%AAPPT%E8%B7%9F%E4%BD%A0%E8%AE%B2%E5%90%97%EF%BC%9F"><span class="nav-text">3.能力技不要和爆发药一起插，要我做个PPT跟你讲吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-567-%E9%97%A8%E7%A5%9E%E5%8F%AF%E4%BB%A5%E8%BF%99%E4%B9%88%E6%89%93%E8%B5%B7%E6%89%8B%EF%BC%8C%E7%81%AB%E8%B5%B7%E9%95%BF%E5%8D%95%E5%BB%B6%E5%90%8E%E9%AD%94%E6%B3%89"><span class="nav-text">4.567+门神可以这么打起手，火起长单延后魔泉</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-%E5%85%B3%E4%BA%8E%E9%95%BF%E5%8D%95-%E9%95%BF%E5%8F%8C-%E9%95%BF%E8%AF%BB%E6%9D%A1%E9%99%B7%E9%98%B1"><span class="nav-text">5.关于长单&#x2F;长双&#x2F;长读条陷阱</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E7%BD%AE%E7%9F%A5%E8%AF%86%EF%BC%88%E5%BE%85%E7%BC%96%E5%86%99%EF%BC%89%EF%BC%9A"><span class="nav-text">前置知识（待编写）：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#P1%EF%BC%9A%E9%BB%91%E9%AD%94%E6%8A%80%E8%83%BD%E5%A8%81%E5%8A%9B%E7%9A%84%E8%AE%A1%E7%AE%97"><span class="nav-text">P1：黑魔技能威力的计算</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#P2%EF%BC%9A%E6%BB%91%E6%AD%A5%E7%9A%84%E5%8E%9F%E7%90%86"><span class="nav-text">P2：滑步的原理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#P3%EF%BC%9A%E8%83%BD%E5%8A%9B%E6%8A%80%E5%92%8Cgcd%E6%8A%80"><span class="nav-text">P3：能力技和gcd技</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#P4%EF%BC%9A%E6%BB%A1%E7%BA%A7%E4%B9%8B%E5%89%8D"><span class="nav-text">P4：满级之前</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E8%AF%86%E6%80%A7%E9%97%AE%E9%A2%98"><span class="nav-text">常识性问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Q1%EF%BC%9A%E9%9B%B7dot%E6%98%AF%E4%B8%8D%E6%98%AF%E8%A6%81%E4%BF%9D%E6%8C%81%E4%B8%8D%E6%96%AD%EF%BC%9F%E6%96%ADdot%E5%92%8C%E8%A6%86%E7%9B%96dot%E9%80%89%E5%93%AA%E4%B8%AA%EF%BC%9F"><span class="nav-text">Q1：雷dot是不是要保持不断？断dot和覆盖dot选哪个？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q2%EF%BC%9A%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%A1%A5dot%E6%9B%B4%E5%90%88%E9%80%82%EF%BC%9F"><span class="nav-text">Q2：什么时候补dot更合适？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q3%EF%BC%9A%E8%B5%B7%E6%89%8B%E4%B9%8B%E5%90%8E%EF%BC%8C%E4%B8%89%E8%BF%9E%E4%B8%80%E8%88%AC%E7%94%A8%E5%9C%A8%E5%93%AA%E9%87%8C%EF%BC%9F%E6%80%8E%E4%B9%88%E5%AE%89%E6%8E%92%EF%BC%9F"><span class="nav-text">Q3：起手之后，三连一般用在哪里？怎么安排？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q4%EF%BC%9A%E5%BC%80%E8%8D%92%E6%9C%9F%E6%89%93%E7%9D%80%E5%BE%AA%E7%8E%AF%E4%B8%AD%E9%97%B4%E7%AA%81%E7%84%B6%E8%A6%81%E8%B7%91%E6%9C%BA%E5%88%B6%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F"><span class="nav-text">Q4：开荒期打着循环中间突然要跑机制了怎么办？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q5%EF%BC%9A%E4%B8%89%E8%BF%9E-%E6%BF%80%E6%83%85-%E9%BB%91%E9%AD%94%E7%BA%B9-%E9%AD%94%E6%B3%89%E5%A5%BD%E4%BA%86%EF%BC%8C%E6%B2%A1%E6%9C%89%E5%90%88%E9%80%82%E7%9A%84%E7%AA%97%E5%8F%A3%EF%BC%8C%E5%BA%94%E8%AF%A5%E5%8D%A1gcd%E7%A1%AC%E6%8F%92%E5%90%97%EF%BC%9F"><span class="nav-text">Q5：三连&#x2F;激情&#x2F;黑魔纹&#x2F;魔泉好了，没有合适的窗口，应该卡gcd硬插吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q6%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91gcd%E5%88%A9%E7%94%A8%E7%8E%87%E4%B8%8A%E4%B8%8D%E5%8E%BB%EF%BC%9F"><span class="nav-text">Q6：为什么我gcd利用率上不去？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q7%EF%BC%9A%E5%8D%A1gcd%E7%A1%AC%E6%8F%92%E6%8A%80%E8%83%BD%E6%98%AF%E4%BA%8F%E7%9A%84%E5%90%97%EF%BC%9F%E6%9C%89%E4%BB%80%E4%B9%88%E5%BD%B1%E5%93%8D%EF%BC%9F"><span class="nav-text">Q7：卡gcd硬插技能是亏的吗？有什么影响？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q8%EF%BC%9A%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E5%8D%A1gcd%EF%BC%9F"><span class="nav-text">Q8：怎么能不卡gcd？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q9%EF%BC%9A%E9%BB%91%E9%AD%94%E7%BA%B9%E9%87%8C%E5%8F%8C%E6%8F%92%E4%BC%9A%E5%8D%A1gcd%E5%90%97%EF%BC%9F"><span class="nav-text">Q9：黑魔纹里双插会卡gcd吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q10%EF%BC%9A%E7%88%86%E5%8F%91%E8%8D%AF%E5%8D%A1gcd%E5%90%97%EF%BC%9F%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F"><span class="nav-text">Q10：爆发药卡gcd吗？怎么办？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q11%EF%BC%9A%E6%88%91%E7%9A%84gcd%E5%88%A9%E7%94%A8%E7%8E%87%E5%A4%9A%E5%B0%91%E7%AE%97%E6%AD%A3%E5%B8%B8%EF%BC%9F"><span class="nav-text">Q11：我的gcd利用率多少算正常？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q12%EF%BC%9A%E4%B8%8D%E8%80%83%E8%99%91%E8%B7%91%E4%BD%8D%E7%9A%84%E8%AF%9D%E4%B8%89%E8%BF%9E%E5%92%8C%E5%8D%B3%E5%88%BB%E9%83%BD%E7%94%A8%E6%9D%A5%E5%B9%B2%E4%BB%80%E4%B9%88%E6%AF%94%E8%BE%83%E5%A5%BD%EF%BC%9F"><span class="nav-text">Q12：不考虑跑位的话三连和即刻都用来干什么比较好？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q13%EF%BC%9A%E6%84%8F%E5%A4%96%E6%96%AD%E5%A4%A9%E8%AF%AD%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F"><span class="nav-text">Q13：意外断天语怎么办？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q14%EF%BC%9ABOSS%E7%9A%84%E6%8A%80%E8%83%BD%E6%9C%89%E9%9A%8F%E6%9C%BA%E6%80%A7%EF%BC%8C%E6%88%91%E8%A6%81%E6%80%8E%E4%B9%88%E6%8E%92%E8%BD%B4%EF%BC%9F"><span class="nav-text">Q14：BOSS的技能有随机性，我要怎么排轴？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q15%EF%BC%9A%E6%88%91%E8%A3%85%E7%AD%89xxx%EF%BC%8C%E6%89%93xxxxRD%E6%98%AF%E6%AD%A3%E5%B8%B8%E7%9A%84%E5%90%97%EF%BC%9F"><span class="nav-text">Q15：我装等xxx，打xxxxRD是正常的吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q16%EF%BC%9A%E6%88%91%E5%BC%80%E8%8D%92%E5%88%9D%E9%80%9A%E6%89%93%E4%BB%80%E4%B9%88%E9%A2%9C%E8%89%B2%E6%AD%A3%E5%B8%B8%EF%BC%9F"><span class="nav-text">Q16：我开荒初通打什么颜色正常？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q17%EF%BC%9A%E6%A0%87%E5%87%86%E5%BE%AA%E7%8E%AF%E7%9A%84%E9%9B%B7dot%E6%80%8E%E4%B9%88%E7%BB%AD%EF%BC%9F%E6%80%BB%E6%98%AF%E6%96%AD%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F"><span class="nav-text">Q17：标准循环的雷dot怎么续？总是断怎么办？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q18%EF%BC%9A%E7%81%AB%E9%87%8C%E5%8F%AF%E4%BB%A5%E8%A1%A5%E9%9B%B7%E5%90%97%EF%BC%9F%E8%AF%BB%E6%9D%A1%E9%9B%B7%E5%91%A2%EF%BC%9F"><span class="nav-text">Q18：火里可以补雷吗？读条雷呢？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q19%EF%BC%9A%E8%A1%A5%E9%9B%B7%E6%97%B6%E9%97%B4%E5%9C%A8%E7%81%AB1%E5%90%8E%E9%9D%A2%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F-%E6%BF%80%E6%83%85%E5%BC%80%E4%BA%86%EF%BC%8C%E5%9C%A8%E7%81%AB1%E5%89%8Ddot%E8%BF%98%E5%89%A9%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%EF%BC%8C%E8%A6%81%E6%8A%8A%E6%BF%80%E6%83%85%E7%BB%99%E7%81%AB1%E8%BF%98%E6%98%AF%E8%A6%86%E7%9B%96dot%EF%BC%9F"><span class="nav-text">Q19：补雷时间在火1后面怎么办？&#x2F;激情开了，在火1前dot还剩一段时间，要把激情给火1还是覆盖dot？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q20%EF%BC%9A%E6%88%91%E5%BC%80%E8%8D%92%E4%B8%8D%E7%9F%A5%E9%81%93%E9%BB%91%E9%AD%94%E7%BA%B9%E5%9C%A8%E5%93%AA%E4%B8%8B%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F"><span class="nav-text">Q20：我开荒不知道黑魔纹在哪下怎么办？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q21%EF%BC%9A%E5%BC%82%E8%A8%80%E8%AF%A5%E6%8F%92%E5%9C%A8%E5%93%AA%E9%87%8C%E5%A5%BD%E5%95%8A%EF%BC%9F"><span class="nav-text">Q21：异言该插在哪里好啊？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q22%EF%BC%9A%E6%88%91%E9%80%9A%E6%99%93%E6%80%BB%E6%98%AF%E6%BA%A2%E5%87%BA%EF%BC%8C%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F"><span class="nav-text">Q22：我通晓总是溢出，怎么办？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q23%EF%BC%9A%E7%9E%AC%E5%8F%8C3%E3%80%81%E7%81%AB%E5%8F%8C4%E3%80%81%E7%9E%AC%E5%8D%952%E8%BF%99%E4%BA%9B%E6%98%AF%E4%BB%80%E4%B9%88%E5%95%8A%EF%BC%9F"><span class="nav-text">Q23：瞬双3、火双4、瞬单2这些是什么啊？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q24%EF%BC%9A%E7%9E%AC%E5%8F%8C2%E6%98%AF%E4%BA%8F%E7%9A%84%E8%BF%98%E6%98%AF%E8%B5%9A%E7%9A%84%E5%95%8A%EF%BC%9F"><span class="nav-text">Q24：瞬双2是亏的还是赚的啊？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q25%EF%BC%9A%E6%BB%91%E6%AD%A5%E6%9C%89%E7%94%A8%E5%90%97%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B0%BD%E9%87%8F%E5%88%AB%E6%BB%91%E6%AD%A5%EF%BC%9F"><span class="nav-text">Q25：滑步有用吗？为什么说尽量别滑步？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q26%EF%BC%9A%E6%88%91%E5%9C%A8%E5%A4%96%E9%9D%A2%E8%AF%BB%E6%9D%A1%E5%90%83%E4%B8%8D%E5%88%B0%E5%A5%B6%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F"><span class="nav-text">Q26：我在外面读条吃不到奶怎么办？</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BE%AA%E7%8E%AF%E9%97%AE%E9%A2%98"><span class="nav-text">循环问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Q0%EF%BC%9AXX%E5%BE%AA%E7%8E%AF%E6%80%8E%E4%B9%88%E6%A0%B7%EF%BC%9F%E8%83%BD%E4%B8%8D%E8%83%BD%E6%89%93%EF%BC%9F"><span class="nav-text">Q0：XX循环怎么样？能不能打？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q1%EF%BC%9A%E6%96%B0%E6%89%8B%E6%89%93%E4%BB%80%E4%B9%88%E5%BE%AA%E7%8E%AF%E5%A5%BD%EF%BC%9F"><span class="nav-text">Q1：新手打什么循环好？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q2%EF%BC%9A%E6%88%91%E6%89%93%E6%A0%87%E5%87%86%E5%BE%AA%E7%8E%AF%E5%8F%AA%E6%9C%89%E7%81%B0%E7%BB%BF%E8%93%9D%E6%AD%A3%E5%B8%B8%E5%90%97%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84%E9%A2%9C%E8%89%B2%E4%B8%8D%E5%A5%BD%E7%9C%8B%EF%BC%9F"><span class="nav-text">Q2：我打标准循环只有灰绿蓝正常吗？为什么我的颜色不好看？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q3%EF%BC%9A%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%8F%AF%E4%BB%A5%E5%BC%80%E5%A7%8B%E8%80%83%E8%99%91%E6%89%93%E5%88%AB%E7%9A%84%E5%BE%AA%E7%8E%AF%EF%BC%9F"><span class="nav-text">Q3：什么时候可以开始考虑打别的循环？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q4%EF%BC%9A%E4%BB%80%E4%B9%88%E5%8F%AB%E5%81%9A%E6%8A%8A%E6%A0%87%E5%87%86%E5%BE%AA%E7%8E%AF%E6%89%93%E6%98%8E%E7%99%BD%E4%BA%86%EF%BC%9F%E6%9C%89%E7%95%8C%E5%AE%9A%E7%9A%84%E6%A0%87%E5%87%86%E5%90%97%EF%BC%9F"><span class="nav-text">Q4：什么叫做把标准循环打明白了？有界定的标准吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q5%EF%BC%9A%E4%B8%8D%E6%89%93%E8%BF%9B%E9%98%B6%E5%BE%AA%E7%8E%AF%E6%98%AF%E4%B8%8D%E6%98%AF%E5%B0%B1%E6%89%93%E4%B8%8D%E5%88%B0%E6%A9%99%E7%B4%AB%EF%BC%9F"><span class="nav-text">Q5：不打进阶循环是不是就打不到橙紫？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q6%EF%BC%9A%E4%BB%80%E4%B9%88%E5%BE%AA%E7%8E%AF%E4%BC%A4%E5%AE%B3%E9%AB%98%EF%BC%9F"><span class="nav-text">Q6：什么循环伤害高？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q7%EF%BC%9A%E8%BF%9B%E9%98%B6%E5%BE%AA%E7%8E%AF%EF%BC%88%E5%8F%8C%E6%98%9F%E7%81%B5%E7%AD%89%EF%BC%89%E5%B0%B1%E4%B8%80%E5%AE%9A%E8%83%BD%E6%89%93%E9%AB%98%E5%90%97%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E8%AE%A9%E6%88%91%E5%B0%9D%E8%AF%95%EF%BC%9F"><span class="nav-text">Q7：进阶循环（双星灵等）就一定能打高吗？为什么不让我尝试？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q8%EF%BC%9A%E6%89%93%E6%BF%80%E6%83%85%E7%81%AB%E8%BF%98%E6%98%AF%E6%BF%80%E6%83%85%E9%9B%B7%EF%BC%9F%E5%88%86%E5%88%AB%E6%9C%89%E4%BB%80%E4%B9%88%E4%BC%98%E7%82%B9%EF%BC%9F"><span class="nav-text">Q8：打激情火还是激情雷？分别有什么优点？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q9%EF%BC%9A%E6%88%91%E6%BF%80%E6%83%85%E4%B8%8D%E5%B0%8F%E5%BF%83%E6%89%93%E7%BB%99%E7%81%AB%E4%BA%86%E5%92%8B%E5%8A%9E%EF%BC%9F"><span class="nav-text">Q9：我激情不小心打给火了咋办？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q10%EF%BC%9A%E6%88%91%E6%83%B3%E6%89%93%E6%BF%80%E6%83%85%E7%81%AB%EF%BC%8C%E9%9B%B7%E8%A6%86%E7%9B%96%E7%8E%87%E4%BC%9A%E4%B8%A2%E5%90%97%EF%BC%9F"><span class="nav-text">Q10：我想打激情火，雷覆盖率会丢吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q11%EF%BC%9A%E6%96%B0%E7%9F%AD%E5%BE%AA%E7%8E%AF%EF%BC%88%E7%81%AB%E6%82%96%E8%AE%BA%E7%81%AB1%EF%BC%89%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8%EF%BC%9F%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E6%89%93%EF%BC%9F%E5%8F%AF%E4%BB%A5%E5%A4%9A%E6%89%93%E4%B9%88%EF%BC%9F"><span class="nav-text">Q11：新短循环（火悖论火1）有什么用？什么时候打？可以多打么？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q12%EF%BC%9A%E5%8D%95%E6%98%9F%E7%81%B5%E8%AF%A5%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E7%94%A8%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E4%B8%8D%E5%BB%BA%E8%AE%AE%E5%A4%9A%E6%89%93%E5%8D%95%E6%98%9F%E7%81%B5%EF%BC%9F"><span class="nav-text">Q12：单星灵该什么时候用？为什么说不建议多打单星灵？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q13%EF%BC%9A%E6%89%80%E4%BB%A5%E9%95%BF%E5%8D%95%E5%8F%AF%E4%BB%A5%E6%89%93%E4%B9%88%EF%BC%9F%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E6%89%93%EF%BC%9F"><span class="nav-text">Q13：所以长单可以打么？什么时候打？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q14%EF%BC%9A%E4%B8%80%E4%BA%9B%E6%8A%BD%E8%B1%A1%E7%9A%84%E5%BE%AA%E7%8E%AF%EF%BC%88%E4%BE%8B%E5%A6%82%E5%B8%A6%E5%86%B04%E7%9A%84%E5%8F%8C%E6%98%9F%E7%81%B5%EF%BC%89%E6%88%91%E8%A6%81%E5%AD%A6%E4%B9%88%EF%BC%9F"><span class="nav-text">Q14：一些抽象的循环（例如带冰4的双星灵）我要学么？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q15%EF%BC%9A%E6%96%B0%E7%9F%AD%E8%BF%99%E7%B1%BB%E9%9D%9E%E5%B8%B8%E8%A7%84%E7%89%B9%E6%AE%8A%E5%BE%AA%E7%8E%AF%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E7%94%A8%EF%BC%9F"><span class="nav-text">Q15：新短这类非常规特殊循环什么时候用？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q16%EF%BC%9A%E5%9C%A8%E4%B8%80%E4%BA%9B%E5%BE%AA%E7%8E%AF%E9%87%8C%E6%88%91%E7%9A%84%E8%93%9D%E6%9C%89%E5%89%A9%E4%BD%99%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E8%83%BD%E6%89%93%E4%B8%80%E4%B8%AA%E7%81%AB1%E5%86%8D%E5%A4%9A%E6%89%93%E4%B8%80%E4%B8%AA%E7%81%AB4%E7%BB%9D%E6%9C%9B%EF%BC%9F"><span class="nav-text">Q16：在一些循环里我的蓝有剩余，为什么不能打一个火1再多打一个火4绝望？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q17%EF%BC%9A%E6%88%91%E6%83%B3%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6%E5%BE%AA%E7%8E%AF%EF%BC%8C%E4%BD%86%E6%98%AF%E5%BA%94%E8%AF%A5%E4%BB%8E%E5%93%AA%E9%87%8C%E5%BC%80%E5%A7%8B%EF%BC%9F"><span class="nav-text">Q17：我想学习进阶循环，但是应该从哪里开始？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q18%EF%BC%9A%E6%97%A0%E7%81%AB%E8%8B%97%E7%9A%84%E5%8F%8C%E6%98%9F%E7%81%B5%E6%80%8E%E4%B9%88%E6%89%93%EF%BC%9F%E6%88%91%E6%80%BB%E6%98%AF%E4%B8%8D%E8%B7%B3%E8%93%9D%E6%88%96%E8%80%85%E8%93%9D%E4%B8%8D%E5%A4%9F%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F"><span class="nav-text">Q18：无火苗的双星灵怎么打？我总是不跳蓝或者蓝不够怎么办？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q19%EF%BC%9A%E8%B7%B3%E8%93%9D%E4%B8%8D%E5%A5%BD%EF%BC%8C%E4%B8%8D%E8%83%BD%E6%89%93%E7%9E%AC%E5%8F%8C3%EF%BC%8C%E6%8E%A5%E7%9D%80%E6%89%93%E5%8F%8C%E6%98%9F%E7%81%B5%E5%A5%BD%E8%BF%98%E6%98%AF%E7%9B%B4%E6%8E%A5%E7%9E%AC%E5%8F%91%E7%81%AB3%E8%BD%AC%E5%8D%95%E6%98%9F%E7%81%B5%EF%BC%9F"><span class="nav-text">Q19：跳蓝不好，不能打瞬双3，接着打双星灵好还是直接瞬发火3转单星灵？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q20%EF%BC%9A%E5%A6%82%E6%9E%9C%E8%BF%9B%E5%86%B0%E6%89%93%E6%82%96%E8%AE%BA%E5%8D%A1%E8%B7%B3%E8%93%9D%E4%BA%86%EF%BC%8C%E6%B2%A1%E6%9C%89%E5%88%AB%E7%9A%84%E7%9E%AC%E5%8F%91%EF%BC%8C%E8%83%BD%E6%89%93%E4%B8%AA%E5%B4%A9%E6%BA%83%E7%BC%93%E4%B8%AAGCD%E5%90%97%EF%BC%9F"><span class="nav-text">Q20：如果进冰打悖论卡跳蓝了，没有别的瞬发，能打个崩溃缓个GCD吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q21%EF%BC%9A%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E6%9B%BF%E6%8D%A2%E4%B8%8D%E5%90%8C%E7%9A%84%E5%BE%AA%E7%8E%AF%EF%BC%9F%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E6%89%93%E6%A0%87%E5%87%86%EF%BC%8C%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%AF%A5%E6%89%93%E5%85%B6%E4%BB%96%E5%BE%AA%E7%8E%AF%EF%BC%88%E4%BE%8B%E5%A6%82%E5%8F%8C%E6%98%9F%E7%81%B5%EF%BC%89%EF%BC%9F"><span class="nav-text">Q21：什么时候替换不同的循环？什么时候该打标准，什么时候该打其他循环（例如双星灵）？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q22%EF%BC%9A%E4%BB%80%E4%B9%88%E6%98%AF%E6%8E%92%E8%BD%B4%EF%BC%9F"><span class="nav-text">Q22：什么是排轴？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q23%EF%BC%9A%E6%8E%92%E8%BD%B4%E4%B8%AD%E6%9C%89%E6%84%8F%E5%A4%96%E7%9A%84%E7%81%AB%E8%8B%97%E8%A7%A6%E5%8F%91%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86%EF%BC%9F"><span class="nav-text">Q23：排轴中有意外的火苗触发怎么处理？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q24%EF%BC%9A%E6%88%91%E5%BA%94%E8%AF%A5%E6%8A%84%E8%BD%B4%E5%90%97%EF%BC%9F"><span class="nav-text">Q24：我应该抄轴吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q25%EF%BC%9A%E5%8E%8B%E5%86%B0%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E6%88%91%E5%BA%94%E8%AF%A5%E5%AD%A6%E4%B9%A0%E5%90%97%EF%BC%9F"><span class="nav-text">Q25：压冰是什么？我应该学习吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q26%EF%BC%9A%E6%80%8E%E4%B9%88%E5%8E%8B%E5%86%B0%EF%BC%9F"><span class="nav-text">Q26：怎么压冰？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q27%EF%BC%9A%E6%88%91%E7%9C%8B%E6%9C%890%E5%86%B0%E8%BD%B4%EF%BC%8C%E9%82%A3%E4%B8%AA%E5%8E%89%E5%AE%B3%E5%90%97%EF%BC%9F%E5%8E%8B%E5%86%B0%E5%8E%8B%E5%BE%97%E5%A4%9A%E5%B0%B1%E4%B8%80%E5%AE%9A%E6%98%AF%E6%9C%80%E5%A5%BD%E7%9A%84%E5%90%97%EF%BC%9F"><span class="nav-text">Q27：我看有0冰轴，那个厉害吗？压冰压得多就一定是最好的吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q28%EF%BC%9A%E9%9A%8F%E6%9C%BA%E8%BD%B4%E8%83%BD%E6%89%93%E4%B9%88%EF%BC%9F"><span class="nav-text">Q28：随机轴能打么？</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%83%A8%E5%88%86%E7%89%B9%E6%AE%8A%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98"><span class="nav-text">部分特殊处理问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Q1%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9C%8B%E5%88%B0%E6%9C%89%E4%BA%BA%E6%89%93%E7%81%AB2%EF%BC%9F"><span class="nav-text">Q1：为什么我看到有人打火2？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q2%EF%BC%9A%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E6%89%93%E7%81%AB2%EF%BC%9F"><span class="nav-text">Q2：什么时候打火2？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q3%EF%BC%9A%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%B7%B3%E8%93%9D%E6%97%B6%E9%97%B4%E9%9C%80%E8%A6%81%E8%B0%83%E6%95%B4%EF%BC%9F"><span class="nav-text">Q3：什么时候跳蓝时间需要调整？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q4%EF%BC%9A%E9%BB%91%E9%AD%94%E6%9C%89%E6%B2%A1%E6%9C%89%E5%AF%B9%E9%BD%90%E5%9B%A2%E8%BE%85%E7%9A%84%E5%BF%85%E8%A6%81%EF%BC%9F"><span class="nav-text">Q4：黑魔有没有对齐团辅的必要？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q5%EF%BC%9A%E8%A6%81%E4%B8%8D%E8%A6%81%E5%8D%A1%E7%9D%80gcd%E7%BB%99%E5%87%8F%E4%BC%A4%EF%BC%88%E6%98%8F%E4%B9%B1-%E9%AD%94%E7%BD%A9%EF%BC%89%EF%BC%9F"><span class="nav-text">Q5：要不要卡着gcd给减伤（昏乱&#x2F;魔罩）？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q6%EF%BC%9A%E5%9B%9E%E8%93%9D%E7%9B%91%E6%8E%A7%E6%9C%89%E5%BF%85%E8%A6%81%E5%AE%89%E8%A3%85%E5%90%97%EF%BC%9F%E7%94%A8%E5%93%AA%E4%B8%AA%EF%BC%9F%E6%88%91%E7%9C%8B%E6%9C%89%E7%9A%84%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8%E7%9A%84%E7%9B%91%E6%8E%A7%E8%A6%81%E7%94%A8%E5%90%97%EF%BC%9F"><span class="nav-text">Q6：回蓝监控有必要安装吗？用哪个？我看有的花里胡哨的监控要用吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q7%EF%BC%9A70%E7%BA%A7%E7%BB%9D%E6%9C%AC%E9%87%8C%E9%BB%91%E9%AD%94%E7%9A%84%E9%AD%94%E6%B3%89%E6%80%8E%E4%B9%88%E6%8F%92%EF%BC%9F"><span class="nav-text">Q7：70级绝本里黑魔的魔泉怎么插？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q8%EF%BC%9A70%E7%BA%A7%E7%BB%9D%E6%9C%AC%E8%BD%AC%E5%9C%BA%E7%BB%93%E6%9D%9F%EF%BC%8C%E6%98%9F%E7%81%B5%E5%90%8E%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E6%81%A2%E5%A4%8D%E7%8A%B6%E6%80%81%EF%BC%9F"><span class="nav-text">Q8：70级绝本转场结束，星灵后应该怎么恢复状态？</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%85%8D%E8%A3%85%E9%97%AE%E9%A2%98"><span class="nav-text">配装问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E6%88%91%E7%94%A8%E5%92%8F%E9%80%9F%E5%A5%97%E6%89%93%E5%BE%97%E4%BD%8E%E6%98%AF%E6%AD%A3%E5%B8%B8%E7%9A%84%E5%90%97%EF%BC%9F"><span class="nav-text">Q：我用咏速套打得低是正常的吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E4%BB%80%E4%B9%88%E5%92%8F%E9%80%9F%E6%9C%80%E5%8E%89%E5%AE%B3%EF%BC%9F"><span class="nav-text">Q：什么咏速最厉害？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8E%A8%E8%8D%90%E6%96%B0%E4%BA%BA%E6%89%93%E9%AB%98%E5%92%8F%E9%80%9F%EF%BC%9F%E6%88%91%E5%B0%B1%E4%B8%8D%E8%83%BD%E7%9B%B4%E6%8E%A5%E6%89%93%E6%9A%B4%E5%87%BB%E5%90%97%EF%BC%9F"><span class="nav-text">Q：为什么推荐新人打高咏速？我就不能直接打暴击吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E8%BF%99%E7%89%88%E6%9C%AC%E7%9F%B3%E5%A4%B4%E6%80%8E%E4%B9%88%E6%89%93%EF%BC%9F"><span class="nav-text">Q：这版本石头怎么打？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E6%98%AF%E4%B8%8D%E6%98%AF1877%E6%98%AF%E6%9C%80%E5%A5%BD%E7%9A%84%E5%92%8F%E9%80%9F%EF%BC%9F%E5%8F%AF%E4%BB%A5%E5%B9%B3%E5%9C%B04%E7%81%AB4%EF%BC%81"><span class="nav-text">Q：是不是1877是最好的咏速？可以平地4火4！</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%911877%E8%AF%BB%E4%B8%8D%E5%87%BA%E6%9D%A54%E7%81%AB4%E7%BB%9D%E6%9C%9B%EF%BC%8C%E6%96%AD%E5%A4%A9%E8%AF%AD%E5%95%8A%EF%BC%9F"><span class="nav-text">Q：为什么我1877读不出来4火4绝望，断天语啊？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E6%88%91%E9%80%89%E4%BB%80%E4%B9%88%E5%92%8F%E9%80%9F%E6%AF%94%E8%BE%83%E5%A5%BD%EF%BC%9F"><span class="nav-text">Q：我选什么咏速比较好？</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%9B%B6%E5%BC%8F%E4%B8%87%E9%AD%94%E6%AE%BFP1S-P4S%E9%97%AE%E9%A2%98"><span class="nav-text">零式万魔殿P1S-P4S问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#P1S"><span class="nav-text">P1S</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9AP1S%E9%BB%91%E9%AD%94%E7%BA%B9%E6%80%8E%E4%B9%88%E5%AE%89%E6%8E%92%EF%BC%9F%E8%83%BD%E7%BB%99%E4%B8%AA%E5%8F%82%E8%80%83%E5%90%97%EF%BC%9F"><span class="nav-text">Q：P1S黑魔纹怎么安排？能给个参考吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E9%BB%91%E9%AD%94%E5%BA%94%E8%AF%A5%E6%89%93%E4%BB%80%E4%B9%88%E4%BD%8D%E7%BD%AE%EF%BC%9F%E6%89%93D4%E4%B8%80%E5%AE%9A%E6%98%AF%E4%BA%8F%E7%9A%84%E5%90%97%EF%BC%9F"><span class="nav-text">Q：黑魔应该打什么位置？打D4一定是亏的吗？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P2S"><span class="nav-text">P2S</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9AP2S%E9%BB%91%E9%AD%94%E7%BA%B9%E6%80%8E%E4%B9%88%E5%AE%89%E6%8E%92%EF%BC%9F%E8%83%BD%E7%BB%99%E4%B8%AA%E5%8F%82%E8%80%83%E5%90%97%EF%BC%9F"><span class="nav-text">Q：P2S黑魔纹怎么安排？能给个参考吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E5%AF%B9%E5%86%B2%E4%B8%A2gcd%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F"><span class="nav-text">Q：对冲丢gcd怎么办？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P3S"><span class="nav-text">P3S</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9AP3S%E9%BB%91%E9%AD%94%E7%BA%B9%E6%80%8E%E4%B9%88%E5%AE%89%E6%8E%92%EF%BC%9F%E8%83%BD%E7%BB%99%E4%B8%AA%E5%8F%82%E8%80%83%E5%90%97%EF%BC%9F"><span class="nav-text">Q：P3S黑魔纹怎么安排？能给个参考吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8D%81%E5%AD%97%E5%9C%B0%E7%81%AB%E9%BB%91%E9%AD%94%E7%BA%B9%E6%80%8E%E4%B9%88%E6%94%BE%EF%BC%9F"><span class="nav-text">Q：第一次十字地火黑魔纹怎么放？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E6%9A%97%E7%82%8E%E5%8F%AF%E4%BB%A5%E6%89%93%E7%A7%BD%E6%B5%8A%E8%84%8F%E5%8F%8C%E7%9B%AE%E6%A0%87%E5%90%97%EF%BC%9F"><span class="nav-text">Q：暗炎可以打秽浊脏双目标吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E5%A4%A7%E9%B8%9F%E9%98%B6%E6%AE%B5%E6%80%8E%E4%B9%88%E5%AE%89%E6%8E%92%E8%B5%84%E6%BA%90%EF%BC%9F"><span class="nav-text">Q：大鸟阶段怎么安排资源？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E5%A4%A7%E9%B8%9F%E7%BB%93%E6%9D%9F%E7%81%B5%E6%9E%81%E9%AD%82%E8%BD%AC%E4%B8%8D%E6%BB%A1%E4%B8%89%E4%B8%AA%E5%86%B0%E9%92%88%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F"><span class="nav-text">Q：大鸟结束灵极魂转不满三个冰针怎么办？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P4S-%E9%97%A8%E7%A5%9E"><span class="nav-text">P4S-门神</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E7%AC%AC%E4%BA%8C%E4%B8%AA%E9%BB%91%E9%AD%94%E7%BA%B9%E5%AF%B9%E9%BD%90%E5%9C%B0%E6%9D%BF%E8%AF%A5%E6%80%8E%E4%B9%88%E6%94%BE%EF%BC%9F"><span class="nav-text">Q：第二个黑魔纹对齐地板该怎么放？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P4S-%E6%9C%AC%E4%BD%93"><span class="nav-text">P4S-本体</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9AP4S%E9%BB%91%E9%AD%94%E7%BA%B9%E6%80%8E%E4%B9%88%E5%AE%89%E6%8E%92%EF%BC%9F%E8%83%BD%E7%BB%99%E4%B8%AA%E5%8F%82%E8%80%83%E5%90%97%EF%BC%9F"><span class="nav-text">Q：P4S黑魔纹怎么安排？能给个参考吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E6%89%93d2%E8%BF%98%E6%98%AFd4%EF%BC%9F"><span class="nav-text">Q：打d2还是d4？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E5%9B%9B%E8%BF%90%E9%BB%91%E9%AD%94%E7%BA%B9%E8%A6%81%E6%80%8E%E4%B9%88%E6%94%BE%EF%BC%9F%E5%BB%B6%E5%90%8E%E8%BF%98%E6%98%AF%E5%9C%BA%E4%B8%AD%E5%AF%B9%E7%A9%BF%EF%BC%9F"><span class="nav-text">Q：四运黑魔纹要怎么放？延后还是场中对穿？</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%9B%B6%E5%BC%8F%E4%B8%87%E9%AD%94%E6%AE%BFP5S-P8S%E9%97%AE%E9%A2%98%EF%BC%88%E5%BE%85%E7%BC%96%E8%BE%91%EF%BC%89"><span class="nav-text">零式万魔殿P5S-P8S问题（待编辑）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B9%BB%E6%83%B3%E9%BE%99%E8%AF%97%E7%BB%9D%E5%A2%83%E6%88%98%E9%97%AE%E9%A2%98"><span class="nav-text">幻想龙诗绝境战问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E9%BE%99%E8%AF%97%E8%A6%81%E9%80%89%E4%BB%80%E4%B9%88%E5%92%8F%E9%80%9F%EF%BC%9F%EF%BC%886-1%EF%BC%89"><span class="nav-text">Q：龙诗要选什么咏速？（6.1）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E9%BE%99%E8%AF%97%E6%9C%89%E6%9C%80%E4%BC%98%E8%BD%B4%E5%90%97%EF%BC%9F%EF%BC%88%E9%99%84884%E7%89%9B%E7%89%9B%E8%BD%B4%EF%BC%89"><span class="nav-text">Q：龙诗有最优轴吗？（附884牛牛轴）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E9%BE%99%E8%AF%97%E6%89%93D2%E8%BF%98%E6%98%AFD4%EF%BC%9F"><span class="nav-text">Q：龙诗打D2还是D4？</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%E7%BB%9D%E5%A2%83%E6%88%98%E9%97%AE%E9%A2%98"><span class="nav-text">亚历山大绝境战问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E7%BB%9D%E4%BA%9A%E5%BC%80%E8%8D%92%EF%BC%8C%E7%94%A8%E5%92%8F%E9%80%9F%E8%BF%98%E6%98%AF%E6%9A%B4%E5%87%BB%EF%BC%9F"><span class="nav-text">Q：绝亚开荒，用咏速还是暴击？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E7%8E%B0%E5%9C%A8%EF%BC%886-1%EF%BC%89%E7%BB%9D%E4%BA%9A%E7%9A%84bis%E6%98%AF%EF%BC%9F"><span class="nav-text">Q：现在（6.1）绝亚的bis是？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E6%9C%89%E6%B2%A1%E6%9C%89%E5%B0%8F%E6%80%AA%E6%8E%A8%E8%8D%90%E6%89%93%E6%B3%95%EF%BC%9F%E6%80%8E%E4%B9%88%E6%89%8D%E8%83%BD%E4%B8%8D%E7%82%B8%E5%B0%8F%E6%80%AA%EF%BC%9F"><span class="nav-text">Q：有没有小怪推荐打法？怎么才能不炸小怪？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Q%EF%BC%9A%E7%BB%9D%E4%BA%9A%E6%80%8E%E4%B9%88%E6%89%93%E5%BE%AA%E7%8E%AF%EF%BC%9F%E8%BF%98%E8%83%BD%E6%89%93%E6%98%9F%E7%81%B5%E5%92%8C%E7%9F%AD%E5%BE%AA%E7%8E%AF%E5%90%97%EF%BC%9F"><span class="nav-text">Q：绝亚怎么打循环？还能打星灵和短循环吗？</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Shiroya</p>
+  <div class="site-description" itemprop="description">一个普通黑魔</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Shiroya</span>
+</div>
+<!--
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+-->
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7},"log":false});</script></body>
+</html>
